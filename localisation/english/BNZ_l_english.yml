@@ -1,0 +1,20 @@
+﻿l_english:
+  # Ideas
+  NZL_BNZ_ratana_alliance_2: "Ratana Alliance"
+  NZL_BNZ_united_polynesia: "United Polynesia"
+
+  # Decisions
+  NZL_BNZ_form_polynesia: "Unite Polynesia"
+  NZL_BNZ_form_polynesia_desc: "With the islands of Hawai’i, Aotearoa, Tahiti, and Samoa under our control, we may be able to unite all Pacific peoples."
+
+  # Focuses
+  NZL_BNZ_demand_polynesia: "Demand Pacific Islands"
+  NZL_BNZ_demand_polynesia_desc: "If we had access to all of the Pacific islands, we would be able to unite all Pacific peoples."
+  NZL_BNZ_unite_polynesia: "Unite Polynesia"
+  NZL_BNZ_unite_polynesia_desc: "With the Polynesian islands and people under our control, we should unite them under a single Polynesian state."
+  NZL_BNZ_develop_polynesian_economy: "Develop Polynesian Economies"
+  NZL_BNZ_develop_polynesian_economy_desc: "With Polynesia under our control, we should focus on improving the economies of the islands."
+  NZL_BNZ_develop_polynesian_naval_bases: "Develop Polynesian Naval Bases"
+  NZL_BNZ_develop_polynesian_naval_bases_desc: "With Polynesia under our control, we should focus on improving the naval bases of the islands."
+  NZL_BNZ_develop_polynesian_defenses: "Develop Polynesian Defenses"
+  NZL_BNZ_develop_polynesian_defenses_desc: "With Polynesia under our control, we should focus on improving the defenses of the islands."

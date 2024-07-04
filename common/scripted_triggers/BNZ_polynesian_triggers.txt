@@ -1,0 +1,10 @@
+NZL_BNZ_can_unite_polynesia = {
+	controls_state = 284 # North Island
+	controls_state = 723 # South Island
+	controls_state = 726 # Samoa
+	controls_state = 629 # Hawaii
+	controls_state = 684 # Caroline Islands
+	controls_state = 638 # Guam
+	controls_state = 641 # Tahiti
+	controls_state = 646 # Saipan
+}
