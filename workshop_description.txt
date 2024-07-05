@@ -1,0 +1,8 @@
+Better New Zealand is a mod that makes New Zealand less like the Luxembourg of the Pacific.
+
+THIS MOD IS IN DEVELOPMENT, IM ONLY PUBLISHING IT NOW SO ONE OF MY FRIENDS CAN TEST IT EASILY.
+
+Features can be found on the Github repo readme, I'm too lazy to finish publishing this.
+
+[h1]Links[/h1]
+[url=https://github.com/Destructor-Ben/BetterNZ]Github Repository[/url]
