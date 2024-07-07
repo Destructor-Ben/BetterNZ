@@ -5,7 +5,7 @@ This mod is in active development and is subject to change.
 [hr][/hr]
 [h1]Features[/h1]
 [b]Unite Polynesia Section of Focus Tree[/b]
-[img]https://github.com/Destructor-Ben/BetterNZ/workshop_polynesia_focuses.png[/img]
+[img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
 The Unite Polynesia decisions have been moved into focuses and expanded upon (in the future).
 [list]
   [*]Demand Pacific Islands
