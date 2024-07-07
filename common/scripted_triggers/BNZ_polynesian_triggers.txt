@@ -1,4 +1,5 @@
 NZL_BNZ_can_unite_polynesia = {
+	# BNZ-RPS
 	controls_state = 284 # North Island
 	controls_state = 723 # South Island
 	controls_state = 726 # Samoa
