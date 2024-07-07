@@ -6847,7 +6847,7 @@ form_polynesia_category = {
 						}
 					}
 					OR = {
-						# BNZ: Changed these to a unified set of states
+						# BNZ-APS
 						controls_state = 284 # North Island
 						controls_state = 723 # South Island
 						controls_state = 726 # Samoa
@@ -6910,7 +6910,7 @@ form_polynesia_category = {
 						}
 					}
 					OR = {
-						# BNZ: Changed these to a unified set of states
+						# BNZ-APS
 						controls_state = 284 # North Island
 						controls_state = 723 # South Island
 						controls_state = 726 # Samoa
@@ -6963,7 +6963,7 @@ form_polynesia_category = {
 						}
 					}
 					OR = {
-						# BNZ: Changed these to a unified set of states
+						# BNZ-APS
 						controls_state = 284 # North Island
 						controls_state = 723 # South Island
 						controls_state = 726 # Samoa
@@ -7008,7 +7008,7 @@ form_polynesia_category = {
 		}
 	}
 
-	# BNZ: New decisions
+	# BNZ: NZ specific form polynesia decision
 	NZL_BNZ_form_polynesia = {
 		icon = generic_form_nation
 

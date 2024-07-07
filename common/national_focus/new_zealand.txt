@@ -2109,30 +2109,11 @@
 
 				# BNZ: Add support units
 				support = {
-					engineer = {
-						x = 0
-						y = 0
-					}
-
-					artillery = {
-						x = 0
-						y = 1
-					}
-
-					anti_air = {
-						x = 0
-						y = 2
-					}
-
-					logistics_company = {
-						x = 0
-						y = 3
-					}
-
-					recon = {
-						x = 0
-						y = 4
-					}
+					engineer          = { x = 0 y = 0 }
+					artillery         = { x = 0 y = 1 }
+					anti_air          = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					recon             = { x = 0 y = 4 }
 				}
 			}
 			random_owned_controlled_state = {
@@ -2772,6 +2753,7 @@
 		completion_reward = {
 			unlock_decision_tooltip = NZL_demand_islands
 
+			# BNZ-APS
 			add_state_core = 284 # North Island
 			add_state_core = 723 # South Island
 			add_state_core = 726 # Samoa
@@ -2827,109 +2809,6 @@
 		completion_reward = {
 			unlock_decision_tooltip = NZL_BNZ_form_polynesia
 			add_ideas = NZL_BNZ_united_polynesia
-		}
-	}
-
-	# TODO: Make all of these do what they say
-	# Develop islands economy
-	focus = {
-		id = NZL_BNZ_develop_polynesian_economy
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = NZL_BNZ_unite_polynesia }
-		x = -2
-		y = 1
-		relative_position_id = NZL_BNZ_unite_polynesia
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	# Develop islands naval bases
-	focus = {
-		id = NZL_BNZ_develop_polynesian_naval_bases
-		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = NZL_BNZ_unite_polynesia }
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_unite_polynesia
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	# Develop islands defenses
-	focus = {
-		id = NZL_BNZ_develop_polynesian_defenses
-		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = NZL_BNZ_unite_polynesia }
-		x = 2
-		y = 1
-		relative_position_id = NZL_BNZ_unite_polynesia
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
 		}
 	}
 }
