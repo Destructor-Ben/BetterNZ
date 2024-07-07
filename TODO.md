@@ -1,13 +1,56 @@
 # To Do List
-v1.0.1
-- Redo description and readme - move the todos into this instead
-- Go through everything and make sure it is all commented
-- Make sure changelog is filled out
-- Republish
+## Next Release
+- Clean up the TODOs
 
-In the future
+## Future
 - Make RPS and APS lists in code
 - Learn to use scripted effects
+- Add more states to the map for islands
+
+
+TODO:
+- Add Iron Sand national focus
+
+TODO: make the decisions highlight what states will be affected
+
+### Australia
+TODO
+- Exclusive branches
+  - Requres Polynesia Volunteers
+  - Ask Australia To Join Faction
+    - Australia joins the faction and becomes part of a reasearch sharing group
+  - Demand Australia
+    - Australia either is annexed or we get an annex wargoal
+  - Puppet Australia
+    - Australia either is puppeted or we get a puppet wargoal
+
+### Non-Aligned (National)
+TODO
+
+### Non-Aligned (Maori)
+TODO
+
+
+TODO
+- Polynesian Volunteers
+  - Get free units from the islands
+  - Requires the 3 develop focuses
+- Polynesian Conscription
+  - Adds national idea
+  - Requires the 3 develop focuses
+
+TODO:
+- Develop Polynesian Island Economies
+  - Build infrastructure in island states
+  - Add 2 building slots to island states
+  - Requires Unite Polynesia
+- Develop Polynesian Island Naval Bases
+  - Add dockyards to island states
+  - Requires Unite Polynesia
+- Develop Polynesian Island Defenses
+  - Build forts on island states
+  - Build naval forts on island states
+  - Requires Unite Polynesia
 
 	# TODO: Make all of these do what they say
 	# Develop islands economy
