@@ -1,10 +1,12 @@
 # To Do List
 ## Next Release
 - Clean up the TODOs
+- Correct description - The Australia wargoal is obtained from Rule Them All if they have a different ideology from NZ
+- Update version number
 
 ## Future
 - Make RPS and APS lists in code
-- Learn to use scripted effects
+- Use scripted effects
 - Add more states to the map for islands
 
 
