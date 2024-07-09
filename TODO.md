@@ -1,47 +1,9 @@
 # To Do List
 ## Next Release
-- Clean up the TODOs
 - Correct description - The Australia wargoal is obtained from Rule Them All if they have a different ideology from NZ
 - Update version number
+- Update changelog
 
-## Future
-- Make RPS and APS lists in code
-- Use scripted effects
-- Add more states to the map for islands
-
-
-TODO:
-- Add Iron Sand national focus
-
-TODO: make the decisions highlight what states will be affected
-
-### Australia
-TODO
-- Exclusive branches
-  - Requres Polynesia Volunteers
-  - Ask Australia To Join Faction
-    - Australia joins the faction and becomes part of a reasearch sharing group
-  - Demand Australia
-    - Australia either is annexed or we get an annex wargoal
-  - Puppet Australia
-    - Australia either is puppeted or we get a puppet wargoal
-
-### Non-Aligned (National)
-TODO
-
-### Non-Aligned (Maori)
-TODO
-
-
-TODO
-- Polynesian Volunteers
-  - Get free units from the islands
-  - Requires the 3 develop focuses
-- Polynesian Conscription
-  - Adds national idea
-  - Requires the 3 develop focuses
-
-TODO:
 - Develop Polynesian Island Economies
   - Build infrastructure in island states
   - Add 2 building slots to island states
@@ -53,8 +15,33 @@ TODO:
   - Build forts on island states
   - Build naval forts on island states
   - Requires Unite Polynesia
+- Polynesian Volunteers
+  - Get free units from the islands
+  - Requires the 3 develop focuses
+- Polynesian Conscription
+  - Adds national idea
+  - Requires the 3 develop focuses
 
-	# TODO: Make all of these do what they say
+## Future
+- Make RPS and APS lists in code
+- Use scripted effects
+- Add more states to the map for islands
+- Add Iron Sand national focus
+- Make the decisions highlight what states will be affected
+- Australia Focuses
+  - Ask Australia To Join Faction
+    - Australia joins the faction and becomes part of a reasearch sharing group
+  - Demand Australia
+    - Australia either is annexed or we get an annex wargoal
+  - Puppet Australia
+    - Australia either is puppeted or we get a puppet wargoal
+- Non-Aligned Paths
+  - National
+  - Maori
+
+
+# Polynesian Development
+
 	# Develop islands economy
 	focus = {
 		id = NZL_BNZ_develop_polynesian_economy
