@@ -1,0 +1,112 @@
+BNZ_create_polynesian_volunteer = {
+	random_owned_controlled_state = {
+		# BNZ-RPS (minus north and south island)
+		prioritize = {
+			726 # Samoa
+			629 # Hawaii
+			684 # Caroline Islands
+			638 # Guam
+			641 # Tahiti
+			646 # Saipan
+		}
+		
+		create_unit = {
+			division = " name = \"Polynesian Volunteers\" division_template = \"Polynesian Volunteers\" start_experience_factor = 0.1"
+			owner = NZL
+		}
+	}
+}
+
+BNZ_develop_polynesian_naval_bases_tooltip_effect_1 = {
+	random_state = {
+		limit = {
+			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+		}
+
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+BNZ_develop_polynesian_naval_bases_tooltip_effect_2 = {
+	random_state = {
+		limit = {
+			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+		}
+
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+		}
+	}
+}
+
+BNZ_develop_polynesian_naval_bases_effect_1 = {
+	random_owned_controlled_state = {
+		# BNZ-RPS (minus north and south island)
+		prioritize = {
+			726 # Samoa
+			629 # Hawaii
+			684 # Caroline Islands
+			638 # Guam
+			641 # Tahiti
+			646 # Saipan
+		}
+
+		limit = {
+			is_coastal = yes
+			free_building_slots = {
+				building = dockyard
+				size > 1
+				include_locked = yes
+			}
+		}
+
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		}
+
+		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+	}
+}
+
+BNZ_develop_polynesian_naval_bases_effect_2 = {
+	random_owned_controlled_state = {
+		# BNZ-RPS (minus north and south island)
+		prioritize = {
+			726 # Samoa
+			629 # Hawaii
+			684 # Caroline Islands
+			638 # Guam
+			641 # Tahiti
+			646 # Saipan
+		}
+
+		limit = {
+			is_coastal = yes
+			free_building_slots = {
+				building = dockyard
+				size > 1
+				include_locked = yes
+			}
+		}
+
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+		}
+
+		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+	}
+}

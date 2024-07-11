@@ -1,6 +1,6 @@
 name = "Better New Zealand"
 picture = "thumbnail.png"
-version = "1.0.1"
+version = "1.1.0"
 supported_version = "1.14.*"
 remote_file_id = "3282118980"
 

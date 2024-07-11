@@ -1,6 +1,4 @@
-[b]v1.0.1[/b]
+[b]v1.1.0[/b]
 [list]
-[*]Reworked a bunch of the code
-[*]Updated the description
-[*]Updated the icon
+[*]Added 5 new focuses related to Polynesia
 [/list]

@@ -309,6 +309,26 @@ ideas = {
 				war_support_factor = 0.07
 			}
 		}
+
+		# Polynesian conscription
+		NZL_BNZ_polynesian_conscription = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+
+			modifier = {
+				conscription = 0.01
+				stability_factor = -0.05
+			}
+		}
 	}
 
 	naval_manufacturer = {
