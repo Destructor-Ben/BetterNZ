@@ -7,23 +7,6 @@ This mod is in active development and is subject to change.
 [b]Unite Polynesia Section of Focus Tree[/b]
 [img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
 The Unite Polynesia decisions have been moved into focuses and expanded upon.
-[list]
-  [*]Demand Pacific Islands
-  [list]
-    [*]Unlocks the decision to demand the Polynesian islands, which now includes a few more states
-    [*]Cores all of the Polynesian states - before, this was only done when Polynesia was united
-  [/list]
-  [*]Unite Polynesia
-  [list]
-    [*]Unlocks the decision to change New Zealand's name to Polynesia
-    [*]Adds idea - United Polynesia
-    [list]
-      [*]Buffed manpower
-      [*]Buffed stability
-      [*]Buffed war support
-    [/list]
-  [/list]
-[/list]
 
 [b]Focus Tree Tweaks[/b]
 [list]

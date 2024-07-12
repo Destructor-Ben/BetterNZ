@@ -7006,6 +7006,44 @@ form_polynesia_category = {
 		ai_will_do = {
 			factor = 0
 		}
+
+		# BNZ: Add state highlighting
+		highlight_states = {
+			highlight_state_targets = {
+				# BNZ-APS
+				state = 284 # North Island
+				state = 723 # South Island
+				state = 726 # Samoa
+				state = 629 # Hawaii
+				state = 684 # Caroline Islands
+				state = 638 # Guam
+				state = 641 # Tahiti
+				state = 646 # Saipan
+
+				state = 524 # Taiwan
+				state = 630 # Johnston Atoll
+				state = 631 # Midway Island
+				state = 632 # Wake Island
+				state = 633 # Marshall Islands
+				state = 634 # Solomon Islands
+				state = 635 # New Caledonia
+				state = 636 # Fiji
+				state = 639 # Gilbert Islands
+				state = 642 # Phoenix Island
+				state = 643 # Ellice Islands
+				state = 645 # Iwo Jima
+				state = 647 # Palau
+				state = 648 # Marcus Island
+				state = 725 # Nauru
+				state = 727 # Line Islands
+				state = 734 # Nendo
+				state = 270 # Pitcairn
+				state = 948 # Easter Island
+			}
+
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
 	}
 
 	# BNZ: NZ specific form polynesia decision
@@ -7046,6 +7084,23 @@ form_polynesia_category = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				# BNZ-RPS
+				state = 284 # North Island
+				state = 723 # South Island
+				state = 726 # Samoa
+				state = 629 # Hawaii
+				state = 684 # Caroline Islands
+				state = 638 # Guam
+				state = 641 # Tahiti
+				state = 646 # Saipan
+			}
+
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
 		}
 	}
 }

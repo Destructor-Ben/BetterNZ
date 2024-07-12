@@ -1,4 +1,5 @@
 # TODO: change BNZ-RPS to APS instead?
+# TODO: the develop polynesia focuses may need balancing
 
 BNZ_create_polynesian_volunteer = {
 	random_owned_controlled_state = {
