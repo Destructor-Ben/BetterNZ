@@ -18,3 +18,4 @@
 - Maybe clean up BNZ_effects.txt
 - Add more states to the map for islands
 - Add a mod icon specifically for workshop and redo the existing one
+- Add more government employees and generals
