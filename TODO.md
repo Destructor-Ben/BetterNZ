@@ -1,13 +1,6 @@
 # To Do List
 ## Next Release
-
-## Future
-- Make RPS and APS lists in code
-- Use scripted effects for repeated code
-- Maybe clean up BNZ_effects.txt
-- Add more states to the map for islands
-
-- Add Iron Sand national focus
+- Add more economy focuses - Iron Sand?
 - Non-Aligned Paths
   - National
   - Maori
@@ -18,3 +11,10 @@
     - Australia either is annexed or we get an annex wargoal
   - Puppet Australia
     - Australia either is puppeted or we get a puppet wargoal
+
+## Future
+- Make RPS and APS lists in code
+- Use scripted effects for repeated code
+- Maybe clean up BNZ_effects.txt
+- Add more states to the map for islands
+- Add a mod icon specifically for workshop and redo the existing one
