@@ -2838,11 +2838,15 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
-
+			BNZ_develop_polynesian_economy_tooltip_effect = yes
+			BNZ_develop_polynesian_economy_tooltip_effect = yes
+			BNZ_develop_polynesian_economy_tooltip_effect = yes
 		}
 
 		completion_reward = {
-			
+			BNZ_develop_polynesian_economy_effect = yes
+			BNZ_develop_polynesian_economy_effect = yes
+			BNZ_develop_polynesian_economy_effect = yes
 		}
 	}
 
@@ -2911,14 +2915,14 @@
 
 		}
 
-		search_filters = { }
+		# search_filters = { }
 
 		complete_tooltip = {
 
 		}
 
 		completion_reward = {
-			
+			BNZ_develop_polynesian_defenses_effect = yes
 		}
 	}
 
