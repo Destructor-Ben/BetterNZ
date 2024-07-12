@@ -4,11 +4,13 @@ This mod is in active development and is subject to change.
 
 [hr][/hr]
 [h1]Features[/h1]
-[b]Unite Polynesia Section of Focus Tree[/b]
-[img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
+
+[h2]Unite Polynesia Section of Focus Tree[/h2]
 The Unite Polynesia decisions have been moved into focuses and expanded upon.
 
-[b]Focus Tree Tweaks[/b]
+[img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
+
+[h2]Focus Tree Tweaks[/h2]
 [list]
   [*]Completing the Waitangi Tribunal focus removes the political power cost of Ratana Alliance
   [*]In the Darkness and The Lee Affair have buffed autonomy and ideology drift
