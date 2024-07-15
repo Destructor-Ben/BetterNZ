@@ -9,3 +9,38 @@ NZL_BNZ_can_unite_polynesia = {
 	controls_state = 641 # Tahiti
 	controls_state = 646 # Saipan
 }
+
+BNZ_country_controls_any_polynesian_island = {
+	OR = {
+		# This has Taiwan, Pitcairn Island, and Easter Island added
+		# BNZ-APS
+		controls_state = 284 # North Island
+		controls_state = 723 # South Island
+		controls_state = 726 # Samoa
+		controls_state = 629 # Hawaii
+		controls_state = 684 # Caroline Islands
+		controls_state = 638 # Guam
+		controls_state = 641 # Tahiti
+		controls_state = 646 # Saipan
+
+		controls_state = 524 # Taiwan
+		controls_state = 630 # Johnston Atoll
+		controls_state = 631 # Midway Island
+		controls_state = 632 # Wake Island
+		controls_state = 633 # Marshall Islands
+		controls_state = 634 # Solomon Islands
+		controls_state = 635 # New Caledonia
+		controls_state = 636 # Fiji
+		controls_state = 639 # Gilbert Islands
+		controls_state = 642 # Phoenix Island
+		controls_state = 643 # Ellice Islands
+		controls_state = 645 # Iwo Jima
+		controls_state = 647 # Palau
+		controls_state = 648 # Marcus Island
+		controls_state = 725 # Nauru
+		controls_state = 727 # Line Islands
+		controls_state = 734 # Nendo
+		controls_state = 270 # Pitcairn
+		controls_state = 948 # Easter Island
+	}
+}

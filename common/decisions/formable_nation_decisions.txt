@@ -6826,8 +6826,7 @@ form_polynesia_category = {
 			}
 
 			# BNZ: Made this a different focus
-			# has_completed_focus = NZL_maori_volunteers
-			has_completed_focus = NZL_BNZ_demand_polynesia
+			has_completed_focus = NZL_BNZ_demand_polynesia # NZL_maori_volunteers
 
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
@@ -6846,37 +6845,10 @@ form_polynesia_category = {
 							original_tag = NZL
 						}
 					}
-					OR = {
-						# BNZ-APS
-						controls_state = 284 # North Island
-						controls_state = 723 # South Island
-						controls_state = 726 # Samoa
-						controls_state = 629 # Hawaii
-						controls_state = 684 # Caroline Islands
-						controls_state = 638 # Guam
-						controls_state = 641 # Tahiti
-						controls_state = 646 # Saipan
 
-						controls_state = 524 # Taiwan
-						controls_state = 630 # Johnston Atoll
-						controls_state = 631 # Midway Island
-						controls_state = 632 # Wake Island
-						controls_state = 633 # Marshall Islands
-						controls_state = 634 # Solomon Islands
-						controls_state = 635 # New Caledonia
-						controls_state = 636 # Fiji
-						controls_state = 639 # Gilbert Islands
-						controls_state = 642 # Phoenix Island
-						controls_state = 643 # Ellice Islands
-						controls_state = 645 # Iwo Jima
-						controls_state = 647 # Palau
-						controls_state = 648 # Marcus Island
-						controls_state = 725 # Nauru
-						controls_state = 727 # Line Islands
-						controls_state = 734 # Nendo
-						controls_state = 270 # Pitcairn
-						controls_state = 948 # Easter Island
-					}
+					# BNZ: Made this a trigger
+					BNZ_country_controls_any_polynesian_island = yes
+
 					NOT = { has_country_flag = has_been_asked_for_islands_flag }
 				}
 			}
@@ -6889,8 +6861,7 @@ form_polynesia_category = {
 			# NOT = { has_global_flag = form_polynesia_flag }
 
 			# BNZ: Made this a different focus
-			# has_completed_focus = NZL_maori_volunteers
-			has_completed_focus = NZL_BNZ_demand_polynesia
+			has_completed_focus = NZL_BNZ_demand_polynesia # NZL_maori_volunteers
 
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
@@ -6909,37 +6880,10 @@ form_polynesia_category = {
 							original_tag = NZL
 						}
 					}
-					OR = {
-						# BNZ-APS
-						controls_state = 284 # North Island
-						controls_state = 723 # South Island
-						controls_state = 726 # Samoa
-						controls_state = 629 # Hawaii
-						controls_state = 684 # Caroline Islands
-						controls_state = 638 # Guam
-						controls_state = 641 # Tahiti
-						controls_state = 646 # Saipan
+					
+					# BNZ: Made this a trigger
+					BNZ_country_controls_any_polynesian_island = yes
 
-						controls_state = 524 # Taiwan
-						controls_state = 630 # Johnston Atoll
-						controls_state = 631 # Midway Island
-						controls_state = 632 # Wake Island
-						controls_state = 633 # Marshall Islands
-						controls_state = 634 # Solomon Islands
-						controls_state = 635 # New Caledonia
-						controls_state = 636 # Fiji
-						controls_state = 639 # Gilbert Islands
-						controls_state = 642 # Phoenix Island
-						controls_state = 643 # Ellice Islands
-						controls_state = 645 # Iwo Jima
-						controls_state = 647 # Palau
-						controls_state = 648 # Marcus Island
-						controls_state = 725 # Nauru
-						controls_state = 727 # Line Islands
-						controls_state = 734 # Nendo
-						controls_state = 270 # Pitcairn
-						controls_state = 948 # Easter Island
-					}
 					NOT = { has_country_flag = has_been_asked_for_islands_flag }
 				}
 			}
@@ -6962,37 +6906,10 @@ form_polynesia_category = {
 							original_tag = NZL
 						}
 					}
-					OR = {
-						# BNZ-APS
-						controls_state = 284 # North Island
-						controls_state = 723 # South Island
-						controls_state = 726 # Samoa
-						controls_state = 629 # Hawaii
-						controls_state = 684 # Caroline Islands
-						controls_state = 638 # Guam
-						controls_state = 641 # Tahiti
-						controls_state = 646 # Saipan
 
-						controls_state = 524 # Taiwan
-						controls_state = 630 # Johnston Atoll
-						controls_state = 631 # Midway Island
-						controls_state = 632 # Wake Island
-						controls_state = 633 # Marshall Islands
-						controls_state = 634 # Solomon Islands
-						controls_state = 635 # New Caledonia
-						controls_state = 636 # Fiji
-						controls_state = 639 # Gilbert Islands
-						controls_state = 642 # Phoenix Island
-						controls_state = 643 # Ellice Islands
-						controls_state = 645 # Iwo Jima
-						controls_state = 647 # Palau
-						controls_state = 648 # Marcus Island
-						controls_state = 725 # Nauru
-						controls_state = 727 # Line Islands
-						controls_state = 734 # Nendo
-						controls_state = 270 # Pitcairn
-						controls_state = 948 # Easter Island
-					}
+					# BNZ: Made this a trigger
+					BNZ_country_controls_any_polynesian_island = yes
+
 					hidden_trigger = { NOT = { has_country_flag = has_been_asked_for_islands_flag } }
 				}
 				save_event_target_as = new_zealand_island_demand_target
@@ -7060,12 +6977,12 @@ form_polynesia_category = {
 				has_autonomy_state = autonomy_dominion
 			}
 
+			has_completed_focus = NZL_BNZ_unite_polynesia
 			NZL_BNZ_can_unite_polynesia = yes
 		}
 
 		visible = {
 			original_tag = NZL
-			has_completed_focus = NZL_BNZ_unite_polynesia
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
 
