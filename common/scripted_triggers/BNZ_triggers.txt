@@ -1,4 +1,5 @@
-NZL_BNZ_can_unite_polynesia = {
+# Used in the Unite Polynesia decision and focus
+BNZ_can_unite_polynesia = {
 	# BNZ-RPS
 	controls_state = 284 # North Island
 	controls_state = 723 # South Island
@@ -10,6 +11,7 @@ NZL_BNZ_can_unite_polynesia = {
 	controls_state = 646 # Saipan
 }
 
+# Used for demanding islands
 BNZ_country_controls_any_polynesian_island = {
 	OR = {
 		# This has Taiwan, Pitcairn Island, and Easter Island added

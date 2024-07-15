@@ -2800,7 +2800,7 @@
 		}
 
 		available = {
-			NZL_BNZ_can_unite_polynesia = yes
+			BNZ_can_unite_polynesia = yes
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }

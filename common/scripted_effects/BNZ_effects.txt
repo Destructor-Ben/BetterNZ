@@ -1,6 +1,7 @@
 # TODO: change BNZ-RPS to APS instead?
 # TODO: the develop polynesia focuses may need balancing
 
+# Used in the Polynesian Volunteers focus
 BNZ_create_polynesian_volunteer = {
 	random_owned_controlled_state = {
 		# BNZ-RPS (minus north and south island)
@@ -20,6 +21,8 @@ BNZ_create_polynesian_volunteer = {
 	}
 }
 
+
+### Economy Development Focus ###
 BNZ_develop_polynesian_economy_tooltip_effect = {
 	random_state = {
 		limit = {
@@ -67,6 +70,8 @@ BNZ_develop_polynesian_economy_effect = {
 	}
 }
 
+
+### Naval Base Development Focus ###
 BNZ_develop_polynesian_naval_bases_tooltip_effect_1 = {
 	random_state = {
 		limit = {
@@ -161,6 +166,8 @@ BNZ_develop_polynesian_naval_bases_effect_2 = {
 	}
 }
 
+
+# Adds forts to the islands
 BNZ_develop_polynesian_defenses_effect = {
 	every_owned_state = {
 		limit = {
@@ -210,6 +217,7 @@ BNZ_develop_polynesian_defenses_effect = {
 	}
 }
 
+# Used in the demand islands event
 BNZ_transfer_demanded_islands = {
 	# This has Taiwan, Pitcairn Island, and Easter Island added
 	# BNZ-APS

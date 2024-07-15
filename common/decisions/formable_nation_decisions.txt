@@ -6978,7 +6978,7 @@ form_polynesia_category = {
 			}
 
 			has_completed_focus = NZL_BNZ_unite_polynesia
-			NZL_BNZ_can_unite_polynesia = yes
+			BNZ_can_unite_polynesia = yes
 		}
 
 		visible = {
