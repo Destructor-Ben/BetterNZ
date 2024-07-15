@@ -209,3 +209,171 @@ BNZ_develop_polynesian_defenses_effect = {
 		}
 	}
 }
+
+BNZ_transfer_demanded_islands = {
+	# This has Taiwan, Pitcairn Island, and Easter Island added
+	# BNZ-APS
+	if = { # North Island
+		limit = {
+			controls_state = 284
+		}
+		ROOT = { transfer_state = 284 }
+	}
+	if = { # South Island
+		limit = {
+			controls_state = 723
+		}
+		ROOT = { transfer_state = 723 }
+	}
+	if = { # Samoa
+		limit = {
+			controls_state = 726
+		}
+		ROOT = { transfer_state = 726 }
+	}
+	if = { # Hawaii
+		limit = {
+			controls_state = 629
+		}
+		ROOT = { transfer_state = 629 }
+	}
+	if = { # Caroline Islands
+		limit = {
+			controls_state = 684
+		}
+		ROOT = { transfer_state = 684 }
+	}
+	if = { # Guam
+		limit = {
+			controls_state = 638
+		}
+		ROOT = { transfer_state = 638 }
+	}
+	if = { # Tahiti
+		limit = {
+			controls_state = 641
+		}
+		ROOT = { transfer_state = 641 }
+	}
+	if = { # Saipan
+		limit = {
+			controls_state = 646
+		}
+		ROOT = { transfer_state = 646 }
+	}
+
+	if = { # Taiwan
+		limit = {
+			controls_state = 524
+		}
+		ROOT = { transfer_state = 524 }
+	}
+	if = { # Johnston Atoll
+		limit = {
+			controls_state = 630
+		}
+		ROOT = { transfer_state = 630 }
+	}
+	if = { # Midway Island
+		limit = {
+			controls_state = 631
+		}
+		ROOT = { transfer_state = 631 }
+	}
+	if = { # Wake Island
+		limit = {
+			controls_state = 632
+		}
+		ROOT = { transfer_state = 632 }
+	}
+	if = { # Marshall Islands
+		limit = {
+			controls_state = 633
+		}
+		ROOT = { transfer_state = 633 }
+	}
+	if = { # Solomon Islands
+		limit = {
+			controls_state = 634
+		}
+		ROOT = { transfer_state = 634 }
+	}
+	if = { # New Caledonia
+		limit = {
+			controls_state = 635
+		}
+		ROOT = { transfer_state = 635 }
+	}
+	if = { # Fiji
+		limit = {
+			controls_state = 636
+		}
+		ROOT = { transfer_state = 636 }
+	}
+	if = { # Gilbert Islands
+		limit = {
+			controls_state = 639
+		}
+		ROOT = { transfer_state = 639 }
+	}
+	if = { # Phoenix Island
+		limit = {
+			controls_state = 642
+		}
+		ROOT = { transfer_state = 642 }
+	}
+	if = { # Ellice Islands
+		limit = {
+			controls_state = 643
+		}
+		ROOT = { transfer_state = 643 }
+	}
+	if = { # Iwo Jima
+		limit = {
+			controls_state = 645
+		}
+		ROOT = { transfer_state = 645 }
+	}
+	if = { # Palau
+		limit = {
+			controls_state = 647
+		}
+		ROOT = { transfer_state = 647 }
+	}
+	if = { # Marcus Island
+		limit = {
+			controls_state = 648
+		}
+		ROOT = { transfer_state = 648 }
+	}
+	if = { # Nauru
+		limit = {
+			controls_state = 725
+		}
+		ROOT = { transfer_state = 725 }
+	}
+	if = { # Line Islands
+		limit = {
+			controls_state = 727
+		}
+		ROOT = { transfer_state = 727 }
+	}
+	if = { # Nendo
+		limit = {
+			controls_state = 734
+		}
+		ROOT = { transfer_state = 734 }
+	}
+	if = { # Pitcairn
+		limit = {
+			controls_state = 270
+		}
+		ROOT = { transfer_state = 270 }
+	}
+	if = { # Easter Island
+		limit = {
+			controls_state = 948
+		}
+		ROOT = { transfer_state = 948 }
+	}
+}
