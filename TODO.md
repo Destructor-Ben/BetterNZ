@@ -12,11 +12,12 @@
     - Australia either is annexed or we get an annex wargoal
   - Puppet Australia
     - Australia either is puppeted or we get a puppet wargoal
+    
+- Use scripted effects + triggers and clean up the existing ones
+- Add a mod icon specifically for workshop and redo the existing one
+- Figure out naming of everything
 
 ## Future
 - Make RPS and APS lists in code
-- Use scripted effects for repeated code
-- Maybe clean up BNZ_effects.txt
 - Add more states to the map for islands
-- Add a mod icon specifically for workshop and redo the existing one
 - Add more government employees and generals
