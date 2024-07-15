@@ -2120,8 +2120,7 @@
 				prioritize = { 284 723 }
 				create_unit = {
 					# BNZ: Buff the initial experience
-					# division = " name = \"Maori Volunteers\" division_template = \"Maori Volunteers\" start_experience_factor = 0.0"
-					division = " name = \"Maori Volunteers\" division_template = \"Maori Volunteers\" start_experience_factor = 0.1"
+					division = " name = \"Maori Volunteers\" division_template = \"Maori Volunteers\" start_experience_factor = 0.1" # Normally 0.0
 					owner = NZL
 				}
 			}
