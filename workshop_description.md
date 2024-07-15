@@ -8,6 +8,8 @@ This mod is in active development and is subject to change.
 [h2]Unite Polynesia Section of Focus Tree[/h2]
 The Unite Polynesia decisions have been moved into focuses and expanded upon.
 
+Furthermore, 3 states are cored when Polynesia is united but used to be unable to be demanded (Taiwan, Pitcairn Island, and Easter Island). This has been changed. Islands can also be demanded after Polynesia is formed. The cores on Polynesia are also obtained when the Demand Pacific Islands focus is completed instead of when Polynesia is united.
+
 [img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
 
 [h2]Focus Tree Tweaks[/h2]
