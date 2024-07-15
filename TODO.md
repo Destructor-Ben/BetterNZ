@@ -13,9 +13,10 @@
   - Puppet Australia
     - Australia either is puppeted or we get a puppet wargoal
     
-- Use scripted effects + triggers and clean up the existing ones
 - Add a mod icon specifically for workshop and redo the existing one
-- Figure out naming of everything
+
+- Go over all effects in BNZ_effects except the one used for demanding islands
+- Go over all focuses that I added
 
 ## Future
 - Make RPS and APS lists in code
