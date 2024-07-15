@@ -1,6 +1,7 @@
 # To Do List
 ## Next Release
 - Add more economy focuses - Iron Sand?
+- Add more navy focuses - It needs to be possible for nz to invade Australia
 - Non-Aligned Paths
   - National
   - Maori
