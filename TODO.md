@@ -15,9 +15,6 @@
     
 - Add a mod icon specifically for workshop and redo the existing one
 
-- Go over all effects in BNZ_effects except the one used for demanding islands
-- Go over all focuses that I added
-
 ## Future
 - Make RPS and APS lists in code
 - Add more states to the map for islands
