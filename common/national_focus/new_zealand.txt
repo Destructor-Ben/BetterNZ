@@ -2811,9 +2811,13 @@
 			BNZ_develop_polynesian_economy_tooltip_effect = yes
 			BNZ_develop_polynesian_economy_tooltip_effect = yes
 			BNZ_develop_polynesian_economy_tooltip_effect = yes
+			BNZ_develop_polynesian_economy_tooltip_effect = yes
+			BNZ_develop_polynesian_economy_tooltip_effect = yes
 		}
 
 		completion_reward = {
+			BNZ_develop_polynesian_economy_effect = yes
+			BNZ_develop_polynesian_economy_effect = yes
 			BNZ_develop_polynesian_economy_effect = yes
 			BNZ_develop_polynesian_economy_effect = yes
 			BNZ_develop_polynesian_economy_effect = yes

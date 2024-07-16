@@ -1,54 +1,48 @@
-# TODO: change BNZ-RPS to APS instead?
-# TODO: the develop polynesia focuses may need balancing
-
-# Used in the Polynesian Volunteers focus
-BNZ_create_polynesian_volunteer = {
-	random_owned_controlled_state = {
-		# BNZ-RPS (minus north and south island)
-		prioritize = {
-			726 # Samoa
-			629 # Hawaii
-			684 # Caroline Islands
-			638 # Guam
-			641 # Tahiti
-			646 # Saipan
-		}
-		
-		create_unit = {
-			division = " name = \"Polynesian Volunteers\" division_template = \"Polynesian Volunteers\" start_experience_factor = 0.1"
-			owner = NZL
-		}
-	}
-}
-
-
 ### Economy Development Focus ###
+# The focus tooltip
 BNZ_develop_polynesian_economy_tooltip_effect = {
 	random_state = {
 		limit = {
-			has_state_flag = NZL_BNZ_develop_polynesian_economy_Inf1
+			has_state_flag = NZL_BNZ_develop_polynesian_economy
 		}
 
-		add_building_construction = {
-			type = infrastructure
-			level = 2
-			instant_build = yes
-		}
-
-		add_extra_state_shared_building_slots = 1
+		BNZ_develop_polynesian_economy = yes
 	}
 }
 
+# The focus reward
 BNZ_develop_polynesian_economy_effect = {
 	random_owned_controlled_state = {
-		# BNZ-RPS (minus north and south island)
 		prioritize = {
+			# BNZ-APS (minus north and south island)
+			# 284 # North Island
+			# 723 # South Island
 			726 # Samoa
 			629 # Hawaii
 			684 # Caroline Islands
 			638 # Guam
 			641 # Tahiti
 			646 # Saipan
+			
+			524 # Taiwan
+			630 # Johnston Atoll
+			631 # Midway Island
+			632 # Wake Island
+			633 # Marshall Islands
+			634 # Solomon Islands
+			635 # New Caledonia
+			636 # Fiji
+			639 # Gilbert Islands
+			642 # Phoenix Island
+			643 # Ellice Islands
+			645 # Iwo Jima
+			647 # Palau
+			648 # Marcus Island
+			725 # Nauru
+			727 # Line Islands
+			734 # Nendo
+			270 # Pitcairn
+			948 # Easter Island
 		}
 
 		limit = {
@@ -58,92 +52,143 @@ BNZ_develop_polynesian_economy_effect = {
 			}
 		}
 
-		add_building_construction = {
-			type = infrastructure
-			level = 2
-			instant_build = yes
-		}
-		
-		add_extra_state_shared_building_slots = 1
+		BNZ_develop_polynesian_economy = yes
 
-		set_state_flag = NZL_BNZ_develop_polynesian_economy_Inf1
+		set_state_flag = NZL_BNZ_develop_polynesian_economy
 	}
+}
+
+# The actual effect
+BNZ_develop_polynesian_economy = {
+	add_building_construction = {
+		type = infrastructure
+		level = 2
+		instant_build = yes
+	}
+	
+	add_extra_state_shared_building_slots = 1
 }
 
 
 ### Naval Base Development Focus ###
+## 1 Dockyard ##
+# The focus tooltip
 BNZ_develop_polynesian_naval_bases_tooltip_effect_1 = {
 	random_state = {
 		limit = {
-			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_1
 		}
 
-		add_extra_state_shared_building_slots = 1
-		add_building_construction = {
-			type = dockyard
-			level = 1
-			instant_build = yes
-		}
+		BNZ_develop_polynesian_naval_bases_1 = yes
 	}
 }
 
+# The focus reward
+BNZ_develop_polynesian_naval_bases_effect_1 = {
+	random_owned_controlled_state = {
+		prioritize = {
+			# BNZ-APS (minus north and south island)
+			# 284 # North Island
+			# 723 # South Island
+			726 # Samoa
+			629 # Hawaii
+			684 # Caroline Islands
+			638 # Guam
+			641 # Tahiti
+			646 # Saipan
+
+			524 # Taiwan
+			630 # Johnston Atoll
+			631 # Midway Island
+			632 # Wake Island
+			633 # Marshall Islands
+			634 # Solomon Islands
+			635 # New Caledonia
+			636 # Fiji
+			639 # Gilbert Islands
+			642 # Phoenix Island
+			643 # Ellice Islands
+			645 # Iwo Jima
+			647 # Palau
+			648 # Marcus Island
+			725 # Nauru
+			727 # Line Islands
+			734 # Nendo
+			270 # Pitcairn
+			948 # Easter Island
+		}
+
+		limit = {
+			is_coastal = yes
+			free_building_slots = {
+				building = dockyard
+				size > 1
+				include_locked = yes
+			}
+		}
+
+		BNZ_develop_polynesian_naval_bases_1 = yes
+
+		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_1
+	}
+}
+
+# The actual effect
+BNZ_develop_polynesian_naval_bases_1 = {
+	add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+		type = dockyard
+		level = 1
+		instant_build = yes
+	}
+}
+
+## 2 Dockyards ##
+# The focus tooltip
 BNZ_develop_polynesian_naval_bases_tooltip_effect_2 = {
 	random_state = {
 		limit = {
-			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+			has_state_flag = NZL_BNZ_develop_polynesian_naval_bases_2
 		}
 
-		add_extra_state_shared_building_slots = 2
-		add_building_construction = {
-			type = dockyard
-			level = 2
-			instant_build = yes
-		}
+		BNZ_develop_polynesian_naval_bases_2 = yes
 	}
 }
 
-BNZ_develop_polynesian_naval_bases_effect_1 = {
-	random_owned_controlled_state = {
-		# BNZ-RPS (minus north and south island)
-		prioritize = {
-			726 # Samoa
-			629 # Hawaii
-			684 # Caroline Islands
-			638 # Guam
-			641 # Tahiti
-			646 # Saipan
-		}
-
-		limit = {
-			is_coastal = yes
-			free_building_slots = {
-				building = dockyard
-				size > 1
-				include_locked = yes
-			}
-		}
-
-		add_extra_state_shared_building_slots = 1
-		add_building_construction = {
-			type = dockyard
-			level = 1
-			instant_build = yes
-		}
-
-		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
-	}
-}
-
+# The focus reward
 BNZ_develop_polynesian_naval_bases_effect_2 = {
 	random_owned_controlled_state = {
-		# BNZ-RPS (minus north and south island)
 		prioritize = {
+			# BNZ-APS (minus north and south island)
+			# 284 # North Island
+			# 723 # South Island
 			726 # Samoa
 			629 # Hawaii
 			684 # Caroline Islands
 			638 # Guam
 			641 # Tahiti
 			646 # Saipan
+
+			524 # Taiwan
+			630 # Johnston Atoll
+			631 # Midway Island
+			632 # Wake Island
+			633 # Marshall Islands
+			634 # Solomon Islands
+			635 # New Caledonia
+			636 # Fiji
+			639 # Gilbert Islands
+			642 # Phoenix Island
+			643 # Ellice Islands
+			645 # Iwo Jima
+			647 # Palau
+			648 # Marcus Island
+			725 # Nauru
+			727 # Line Islands
+			734 # Nendo
+			270 # Pitcairn
+			948 # Easter Island
 		}
 
 		limit = {
@@ -155,32 +200,62 @@ BNZ_develop_polynesian_naval_bases_effect_2 = {
 			}
 		}
 
-		add_extra_state_shared_building_slots = 2
-		add_building_construction = {
-			type = dockyard
-			level = 2
-			instant_build = yes
-		}
+		BNZ_develop_polynesian_naval_bases_2 = yes
 
-		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_DY
+		set_state_flag = NZL_BNZ_develop_polynesian_naval_bases_2
+	}
+}
+
+# The actual effect
+BNZ_develop_polynesian_naval_bases_2 = {
+	add_extra_state_shared_building_slots = 2
+
+	add_building_construction = {
+		type = dockyard
+		level = 2
+		instant_build = yes
 	}
 }
 
 
+### Miscellaneous ###
 # Adds forts to the islands
+# TODO: this might not work properly, since if not all of the states are owned, then not all of them will recieve the buff
 BNZ_develop_polynesian_defenses_effect = {
 	every_owned_state = {
 		limit = {
 			is_controlled_by = ROOT
 
-			# BNZ-RPS (minus north and south island)
 			OR = {
+				# BNZ-APS (minus north and south island)
+				# state = 284 # North Island
+				# state = 723 # South Island
 				state = 726 # Samoa
 				state = 629 # Hawaii
 				state = 684 # Caroline Islands
 				state = 638 # Guam
 				state = 641 # Tahiti
 				state = 646 # Saipan
+
+				state = 524 # Taiwan
+				state = 630 # Johnston Atoll
+				state = 631 # Midway Island
+				state = 632 # Wake Island
+				state = 633 # Marshall Islands
+				state = 634 # Solomon Islands
+				state = 635 # New Caledonia
+				state = 636 # Fiji
+				state = 639 # Gilbert Islands
+				state = 642 # Phoenix Island
+				state = 643 # Ellice Islands
+				state = 645 # Iwo Jima
+				state = 647 # Palau
+				state = 648 # Marcus Island
+				state = 725 # Nauru
+				state = 727 # Line Islands
+				state = 734 # Nendo
+				state = 270 # Pitcairn
+				state = 948 # Easter Island
 			}
 		}
 
@@ -213,6 +288,48 @@ BNZ_develop_polynesian_defenses_effect = {
 			}
 			level = 3
 			instant_build = yes
+		}
+	}
+}
+
+# Used in the Polynesian Volunteers focus
+BNZ_create_polynesian_volunteer = {
+	random_owned_controlled_state = {
+		prioritize = {
+			# BNZ-APS (minus north and south island)
+			# 284 # North Island
+			# 723 # South Island
+			726 # Samoa
+			629 # Hawaii
+			684 # Caroline Islands
+			638 # Guam
+			641 # Tahiti
+			646 # Saipan
+
+			524 # Taiwan
+			630 # Johnston Atoll
+			631 # Midway Island
+			632 # Wake Island
+			633 # Marshall Islands
+			634 # Solomon Islands
+			635 # New Caledonia
+			636 # Fiji
+			639 # Gilbert Islands
+			642 # Phoenix Island
+			643 # Ellice Islands
+			645 # Iwo Jima
+			647 # Palau
+			648 # Marcus Island
+			725 # Nauru
+			727 # Line Islands
+			734 # Nendo
+			270 # Pitcairn
+			948 # Easter Island
+		}
+		
+		create_unit = {
+			division = " name = \"Polynesian Volunteers\" division_template = \"Polynesian Volunteers\" start_experience_factor = 0.1"
+			owner = NZL
 		}
 	}
 }
