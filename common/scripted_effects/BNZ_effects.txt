@@ -220,7 +220,6 @@ BNZ_develop_polynesian_naval_bases_2 = {
 
 ### Miscellaneous ###
 # Adds forts to the islands
-# TODO: this might not work properly, since if not all of the states are owned, then not all of them will recieve the buff
 BNZ_develop_polynesian_defenses_effect = {
 	every_owned_state = {
 		limit = {
