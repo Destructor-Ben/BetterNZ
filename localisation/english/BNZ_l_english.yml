@@ -8,6 +8,12 @@
   NZL_BNZ_form_polynesia: "Unite Polynesia"
   NZL_BNZ_form_polynesia_desc: "With the islands of Hawai’i, Aotearoa, Tahiti, and Samoa under our control, we may be able to unite all Pacific peoples."
 
+  # Victory Points
+  VICTORY_POINTS_7887: "Hamilton"
+  VICTORY_POINTS_4718: "Tauranga"
+  VICTORY_POINTS_4804: "Palmerston North"
+  VICTORY_POINTS_1801: "Napier"
+
   # Focuses
   NZL_BNZ_demand_polynesia: "Demand Pacific Islands"
   NZL_BNZ_demand_polynesia_desc: "If we had access to all of the Pacific islands, we would be able to unite all Pacific peoples."
