@@ -2084,7 +2084,8 @@
 			# unlock_decision_tooltip = NZL_demand_islands
 
 			division_template = {
-				is_locked = yes
+				# BNZ: Unlocked the template
+				is_locked = no
 				name = "Maori Volunteers"
 				division_names_group = NZL_INF_01
 				regiments = {
@@ -2971,7 +2972,7 @@
 
 		completion_reward = {
 			division_template = {
-				is_locked = yes
+				is_locked = no
 				name = "Polynesian Volunteers"
 				division_names_group = NZL_INF_01
 				regiments = {

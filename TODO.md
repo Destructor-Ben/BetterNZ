@@ -1,6 +1,7 @@
 # To Do List
 ## Done
 These need adding to the description and changelog
+- Unlock the Maori and Polynesian volunteers templates
 - Add more victory points to NZ
   - Hamilton - 5 - 7887
   - Tauranga - 5 - 4718
@@ -17,7 +18,6 @@ These need adding to the description and changelog
 
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
-- Unlock the Maori and Polynesian volunteers templates
 - Non-Aligned Paths
   - National
   - Maori
