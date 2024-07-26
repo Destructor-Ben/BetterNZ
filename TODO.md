@@ -3,10 +3,11 @@
 These need adding to the description and changelog
 - Unlock the Maori and Polynesian volunteers templates
 - Add more victory points to NZ
-  - Hamilton - 5 - 7887
-  - Tauranga - 5 - 4718
-  - Palmerston North - 1 - 4804
-  - Napier - 1 - 1801
+  - Hamilton - 5
+  - Tauranga - 5
+  - Palmerston North - 1
+  - Napier - 1
+  - New Plymouth - 1
 - Modify existing victory points
   - Wellington - 20
   - Auckland - 10
@@ -18,16 +19,17 @@ These need adding to the description and changelog
 
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
+
 - Non-Aligned Paths
-  - National
-  - Maori
+  - Monarchist
+	- Take Edward VIII from UK after his abdication and stage a coup
+	- King Edward abdicated on 10th December 1936
+  - Maori - Civil war!
+    - Create a Maori Government
+	- Apirana Ngata
+	- Te Puea Herangi
+
 - Australia Focuses
-  - Ask Australia To Join Faction
-    - Australia joins the faction and becomes part of a reasearch sharing group
-  - Demand Australia
-    - Australia either is annexed or we get an annex wargoal
-  - Puppet Australia
-    - Australia either is puppeted or we get a puppet wargoal
 
 ## Future
 ### Content
@@ -35,7 +37,8 @@ These need adding to the description and changelog
 - Add more government employees and generals
 - Add more initial research for NZ
 - Add new flag for communist NZ
-- King Edward - Abdicated on 10th December 1936
+- Maybe make new flags for Polynesia
+- Remove bypasses for focuses that give NZ equipment
 
 ### Balance/Tweaks
 - Maybe make the forts focus only give the bonus to a few random islands, since if it does all, then you may as well wait to get all of them
@@ -44,3 +47,141 @@ These need adding to the description and changelog
 
 ### Code Quality
 - Make RPS and APS lists in code
+
+### Code thats pasted in
+	### Australia ###
+	# Commonwealth
+	focus = {
+		id = NZL_BNZ_australia_commonwealth
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = NZL_technology_sharing_with_britain }
+		x = 0
+		y = 1
+		relative_position_id = NZL_technology_sharing_with_britain
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	# Fascist
+	focus = {
+		id = NZL_BNZ_australia_fascist
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = NZL_technology_sharing_with_japan }
+		x = 0
+		y = 1
+		relative_position_id = NZL_technology_sharing_with_japan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# Communist
+	focus = {
+		id = NZL_BNZ_australia_communist
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = NZL_technology_sharing_with_soviet_union }
+		x = 0
+		y = 1
+		relative_position_id = NZL_technology_sharing_with_soviet_union
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# Independent
+	focus = {
+		id = NZL_BNZ_australia_independent
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = NZL_independent_new_zealand }
+		x = 0
+		y = 1
+		relative_position_id = NZL_independent_new_zealand
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
