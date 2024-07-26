@@ -50,6 +50,11 @@ state={
 			1801 1
 		}
 
+		# New Plymouth
+		victory_points = {
+			12604 1
+		}
+
 		add_core_of = NZL
 	}
 
