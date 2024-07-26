@@ -18,7 +18,6 @@ Furthermore, 3 states are cored when Polynesia is united but used to be unable t
   [*]In the Darkness and The Lee Affair have buffed autonomy and ideology drift
   [*]Befriend Japan focus requirements are clearer - both New Zealand and Japan must be fascist
   [*]Maori Volunteers focus no longer unlocks the decisions to demand islands, but has a better division template and gives stability and war support buffs
-  [*]Rule Them All no longer gives a wargoal to conquer Australia if they have a different ideology to NZ (demand Australia focuses will be added in the future)
 [/list]
 
 [h1]Links[/h1]

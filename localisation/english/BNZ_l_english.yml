@@ -17,18 +17,21 @@
 
   # Focuses
   NZL_BNZ_demand_polynesia: "Demand Pacific Islands"
-  NZL_BNZ_demand_polynesia_desc: "If we had access to all of the Pacific islands, we would be able to unite all Pacific peoples."
+  NZL_BNZ_demand_polynesia_desc: "If we had access to all of the Pacific islands, we would be able to unite all Pacific peoples. Demanding them may be the only we we can achieve this."
   NZL_BNZ_unite_polynesia: "Unite Polynesia"
   NZL_BNZ_unite_polynesia_desc: "With the Polynesian islands and people under our control, we should unite them under a single Polynesian state."
 
   NZL_BNZ_develop_polynesian_economy: "Develop Polynesian Economies"
-  NZL_BNZ_develop_polynesian_economy_desc: "With Polynesia under our control, we should focus on improving the economies of the islands."
+  NZL_BNZ_develop_polynesian_economy_desc: "With Polynesia now under our control, we should focus on improving the economies of the islands."
   NZL_BNZ_develop_polynesian_naval_bases: "Develop Polynesian Naval Bases"
-  NZL_BNZ_develop_polynesian_naval_bases_desc: "With Polynesia under our control, we should focus on improving the naval bases of the islands."
+  NZL_BNZ_develop_polynesian_naval_bases_desc: "With Polynesia now under our control, we should focus on improving the naval bases of the islands."
   NZL_BNZ_develop_polynesian_defenses: "Develop Polynesian Defenses"
-  NZL_BNZ_develop_polynesian_defenses_desc: "With Polynesia under our control, we should focus on improving the defenses of the islands."
+  NZL_BNZ_develop_polynesian_defenses_desc: "With Polynesia now under our control, we should focus on improving the defenses of the islands."
 
   NZL_BNZ_polynesian_conscription: "Polynesian Conscription"
-  NZL_BNZ_polynesian_conscription_desc: "With the success of Maori conscription and Polynesia now under our control, drafting Polynesians may allow us to expand our army."
+  NZL_BNZ_polynesian_conscription_desc: "With the success of Maori conscription, drafting Polynesians may allow us to expand our army to defend the islands."
   NZL_BNZ_polynesian_volunteers: "Polynesian Volunteers"
   NZL_BNZ_polynesian_volunteers_desc: "Now that Polynesia is no longer under oppressive hands, hundreds of Polynesians are volunteering for military service."
+
+  NZL_BNZ_pact_with_australia: "Pact with Australia"
+  NZL_BNZ_pact_with_malaysia: "Pact with Malaysia"

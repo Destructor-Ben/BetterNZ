@@ -31,7 +31,8 @@
 	focus = {
 		id = NZL_transfer_the_new_zealand_division
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 16
+		# BNZ: Moved this over
+		x = 19
 		y = 0
 
 		cost = 10
@@ -413,8 +414,10 @@
 	focus = {
 		id = NZL_expand_the_nzpaf
 		icon = GFX_goal_generic_air_doctrine
-		x = 21
+		# BNZ: Made this relative to the navy focuses
+		x = 5
 		y = 0
+		relative_position_id = NZL_transfer_the_new_zealand_division
 
 		cost = 10
 
@@ -766,8 +769,10 @@
 	focus = {
 		id = NZL_national_roads_board
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 25
+		# BNZ: Made this relative to the air focuses
+		x = 4
 		y = 0
+		relative_position_id = NZL_expand_the_nzpaf
 
 		cost = 10
 
@@ -1332,8 +1337,10 @@
 	focus = {
 		id = NZL_army_reforms
 		icon = GFX_goal_generic_army_doctrines
-		x = 30
+		# BNZ: Made this relative to the industry focuses
+		x = 5
 		y = 0
+		relative_position_id = NZL_national_roads_board
 
 		cost = 10
 
@@ -1773,7 +1780,8 @@
 		id = NZL_ratana_alliance
 		icon = GFX_goal_anschluss
 		prerequisite = { focus = NZL_the_first_labor_government }
-		x = -3
+		# BNZ: Moved this over
+		x = -4
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
@@ -2143,7 +2151,8 @@
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = NZL_the_first_labor_government }
 		mutually_exclusive = { focus = NZL_strengthen_the_commonwealth }
-		x = 5
+		# BNZ: Moved this over
+		x = 7
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
@@ -2286,10 +2295,13 @@
 		id = NZL_the_lee_affair
 		icon = GFX_goal_support_communism
 		prerequisite = { focus = NZL_statute_of_westminster }
-		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act }
-		x = 1
-		y = 1
-		relative_position_id = NZL_statute_of_westminster
+		# BNZ: Changed mutually exclusive
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		# mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act }
+		# BNZ: Changed position
+		x = 2
+		y = 0
+		relative_position_id = NZL_in_the_darkness
 
 		cost = 10
 
@@ -2446,8 +2458,10 @@
 		id = NZL_in_the_darkness
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = NZL_statute_of_westminster }
-		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
-		x = -3
+		# BNZ: Changed mutually exclusive
+		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
+		x = -4
 		y = 1
 		relative_position_id = NZL_statute_of_westminster
 
@@ -2479,13 +2493,13 @@
 	}
 
 	focus = {
+		# BNZ: Modified the basic info of the focus
 		id = NZL_befriend_japan
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = NZL_in_the_darkness }
-		mutually_exclusive = { focus = NZL_rule_them_all }		
+		prerequisite = { focus = NZL_BNZ_purge_traitors }	
 		x = 0
 		y = 1
-		relative_position_id = NZL_in_the_darkness
+		relative_position_id = NZL_BNZ_purge_traitors
 
 		cost = 10
 
@@ -2516,60 +2530,16 @@
 		}
 	}
 
-	focus = {
-		id = NZL_rule_them_all
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = NZL_in_the_darkness }
-		mutually_exclusive = { focus = NZL_befriend_japan }
-		x = 2
-		y = 1
-		relative_position_id = NZL_in_the_darkness
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = no
-			NOT = { has_country_flag = britain_enforced_our_loyalty }
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			set_rule = { can_create_factions = yes }
-			# BNZ: We move the annex wargoal to another focus
-			add_political_power = 50
-			#if = {
-			#	limit = { AST = { NOT = { has_government = ROOT } } }
-			#	create_wargoal = {
-			#		type = annex_EVERYTHING#!!!!!
-			#		target = AST
-			#		expire = 0
-			#	}
-			#	else = {
-			#		add_political_power = 50
-			#	}
-			#}
-		}
-	}
+	# BNZ: Removed Rule Them All
 
 	focus = {
+		# BNZ: Modified the basic info of the focus
 		id = NZL_technology_sharing_with_japan
 		icon = GFX_goal_tfv_generic_tech_sharing
 		prerequisite = { focus = NZL_befriend_japan }
 		x = 0
-		y = 2
-		relative_position_id = NZL_in_the_darkness
+		y = 1
+		relative_position_id = NZL_befriend_japan
 
 		cost = 10
 
@@ -2607,10 +2577,13 @@
 		id = NZL_constitution_amendment_act
 		icon = GFX_goal_tfv_sever_ties_with_uk
 		prerequisite = { focus = NZL_statute_of_westminster }
-		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_in_the_darkness }
-		x = 3
-		y = 1
-		relative_position_id = NZL_statute_of_westminster
+		# BNZ: Changed mutually exclusive
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_in_the_darkness }
+		# BNZ: Moved this
+		x = 2
+		y = 0
+		relative_position_id = NZL_the_lee_affair
 
 		cost = 10
 
@@ -2698,7 +2671,7 @@
 	# Demand islands
 	focus = {
 		id = NZL_BNZ_demand_polynesia
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = NZL_maori_conscription focus = NZL_maori_volunteers }
 		x = 0
 		y = 5
@@ -2971,6 +2944,250 @@
 
 			add_stability = 0.05
 			add_war_support = 0.05
+		}
+	}
+
+	### Monarchist Path ###
+	# Support Edward VIII TODO
+	focus = {
+		id = NZL_BNZ_coup_the_government
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_oppose_pakeha_government }
+		x = 2
+		y = 0
+		relative_position_id = NZL_constitution_amendment_act
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# Institute Royal Dictatorship
+	focus = {
+		id = NZL_BNZ_institute_royal_dictatorship
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_BNZ_coup_the_government }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_coup_the_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	### Maori Path ###
+	# Oppose Pakeha Government
+	focus = {
+		id = NZL_BNZ_oppose_pakeha_government
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government }
+		x = 2
+		y = 0
+		relative_position_id = NZL_BNZ_coup_the_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# Form Maori Government
+	focus = {
+		id = NZL_BNZ_form_maori_government
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_oppose_pakeha_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	### Extension of Commonwealth Path ###
+	# Pact with Australia
+	focus = {
+		id = NZL_BNZ_pact_with_australia
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = NZL_technology_sharing_with_britain }
+		x = -1
+		y = 1
+		relative_position_id = NZL_technology_sharing_with_britain
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# Pact with Malaysia
+	focus = {
+		id = NZL_BNZ_pact_with_malaysia
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = NZL_technology_sharing_with_britain }
+		x = 1
+		y = 1
+		relative_position_id = NZL_technology_sharing_with_britain
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	### Extension of Fascist Path ###
+	# Purge traitors
+	focus = {
+		id = NZL_BNZ_purge_traitors
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = NZL_in_the_darkness }
+		x = 0
+		y = 1
+		relative_position_id = NZL_in_the_darkness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
 		}
 	}
 }
