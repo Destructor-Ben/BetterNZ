@@ -34,6 +34,7 @@ These need adding to the description and changelog
 - Add more states to the map for islands
 - Add more government employees and generals
 - Add more initial research for NZ
+- Add new flag for communist NZ
 
 ### Balance/Tweaks
 - Maybe make the forts focus only give the bonus to a few random islands, since if it does all, then you may as well wait to get all of them
