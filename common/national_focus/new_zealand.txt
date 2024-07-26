@@ -22,45 +22,7 @@
 	# BNZ: Move the continuous focus panel
 	continuous_focus_position = { x = 50 y = 1400 }
 
-#	focus = {
-#		id = NZL_
-#		icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id =
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
-
-
-
-
-
+	# BNZ: Remove the template focus because it's annoying
 
 	############################
 	###### NAVY SECTION ########
