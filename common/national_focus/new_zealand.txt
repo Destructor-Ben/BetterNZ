@@ -2362,7 +2362,8 @@
 		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			ENG = { remove_from_faction = ROOT }
+			# BNZ: Don't leave faction
+			# ENG = { remove_from_faction = ROOT }
 			add_political_power = 100
 			OVERLORD = {
 				set_autonomy = {
@@ -2543,7 +2544,6 @@
 		}
 	}
 
-	# BNZ: Repurposed Rule Them All
 	focus = {
 		id = NZL_rule_them_all
 		icon = GFX_goal_generic_demand_territory
@@ -2583,17 +2583,20 @@
 			set_rule = { can_create_factions = yes }
 			# BNZ: We move the annex wargoal to another focus
 			add_political_power = 50
-			#if = {
-			#	limit = { AST = { NOT = { has_government = ROOT } } }
-			#	create_wargoal = {
-			#		type = annex_EVERYTHING#!!!!!
-			#		target = AST
-			#		expire = 0
-			#	}
-			#	else = {
+			# if = {
+			# 	limit = { AST = { NOT = { has_government = ROOT } } }
+			# 	create_wargoal = {
+			# 		type = annex_EVERYTHING#!!!!!
+			# 		target = AST
+			# 		expire = 0
+			# 	}
+			# 	else = {
 			#		add_political_power = 50
-			#	}
-			#}
+			# 	}
+			# }
+
+			# BNZ: Add a war support buff
+			add_war_support = 0.1
 		}
 	}
 
@@ -2720,14 +2723,18 @@
 
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
-			random_country = {
-				limit = {
-					NOT = { ROOT = { is_faction_leader = yes } }
-					is_faction_leader = yes
-					is_in_faction_with = ROOT
-				}
-				remove_from_faction = ROOT
-			}
+			# BNZ: Don't leave faction
+			# random_country = {
+			# 	limit = {
+			# 		NOT = { ROOT = { is_faction_leader = yes } }
+			# 		is_faction_leader = yes
+			# 		is_in_faction_with = ROOT
+			# 	}
+			# 	remove_from_faction = ROOT
+			# }
+
+			# BNZ: Add idea
+			add_ideas = NZL_BNZ_independent_nz
 		}
 	}
 
@@ -3239,22 +3246,23 @@
 		}
 
 		available = {
-			
+			is_subject = no
+			has_government = fascism
+			NOT = { has_war_together_with = ENG }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 
 		bypass = {
 
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
 
 		}
 
 		completion_reward = {
-			# Copied from the commie focus
-			ENG = { remove_from_faction = ROOT }
 			add_political_power = 100
 			OVERLORD = {
 				set_autonomy = {
