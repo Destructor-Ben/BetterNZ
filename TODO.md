@@ -52,6 +52,7 @@ These need adding to the description and changelog.
 - Add more navy focuses - It needs to be possible for nz to invade Australia
 
 ### Balance/Tweaks
+- Make RPS and APS state lists in code - ETH_transfer_promised_states
 - Maybe make the forts focus only give the bonus to a few random islands, since if it does all, then you may as well wait to get all of them
 - Could also make the Develop Polynesia focuses unlock decisions instead, and have a decision for each island
 - Could also make the demand islands decisions more controlled by having a decision for each state

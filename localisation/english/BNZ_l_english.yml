@@ -4,6 +4,7 @@
   NZL_BNZ_united_polynesia: "United Polynesia"
   NZL_BNZ_polynesian_conscription: "Polynesian Conscription"
   NZL_BNZ_independent_nz: "Independent New Zealand"
+  NZL_BNZ_trade_agreement: "New Zealand Trade Agreement"
 
   # Decisions
   NZL_BNZ_form_polynesia: "Unite Polynesia"
@@ -36,7 +37,10 @@
   NZL_BNZ_polynesian_volunteers: "Polynesian Volunteers"
   NZL_BNZ_polynesian_volunteers_desc: "Now that Polynesia is no longer under oppressive hands, hundreds of Polynesians are volunteering for military service."
 
-  NZL_BNZ_pact_with_australia: "Pact With Australia"
-  NZL_BNZ_pact_with_malaysia: "Pact With Malaysia"
+  NZL_BNZ_deal_with_australia: "Deal With Australia"
+  NZL_BNZ_deal_with_australia_desc: "Deal With Australia"
+  NZL_BNZ_deal_with_malaysia: "Deal With Malaysia"
+  NZL_BNZ_deal_with_malaysia_desc: "Deal With Malaysia"
 
   NZL_BNZ_purge_traitors: "Purge Commonwealth Traitors"
+  NZL_BNZ_purge_traitors_desc: "Purge Commonwealth Traitors"

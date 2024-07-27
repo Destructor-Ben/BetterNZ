@@ -338,6 +338,19 @@ ideas = {
 				conscription = 0.01
 			}
 		}
+
+		# NZ trade agreement (for other countries)
+		NZL_BNZ_trade_agreement = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_industrial_concern_1
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
 	}
 
 	naval_manufacturer = {

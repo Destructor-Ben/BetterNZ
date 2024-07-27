@@ -3161,9 +3161,9 @@
 	}
 
 	### Extension of Commonwealth Path ###
-	# Pact with Australia
+	# Deal with Australia
 	focus = {
-		id = NZL_BNZ_pact_with_australia
+		id = NZL_BNZ_deal_with_australia
 		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = NZL_technology_sharing_with_britain }
 		x = -1
@@ -3191,13 +3191,31 @@
 		}
 
 		completion_reward = {
-			
+			add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
+
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
+
+			add_opinion_modifier = { target = AST modifier = NZL_strengthen_ties } 
+			AST = {
+				add_opinion_modifier = { target = NZL modifier = NZL_strengthen_ties }
+
+				add_timed_idea = {
+					idea = NZL_BNZ_trade_agreement
+					days = 300
+				}
+			}
 		}
 	}
 
-	# Pact with Malaysia
+	# Deal with Malaysia
 	focus = {
-		id = NZL_BNZ_pact_with_malaysia
+		id = NZL_BNZ_deal_with_malaysia
 		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = NZL_technology_sharing_with_britain }
 		x = 1
@@ -3225,7 +3243,25 @@
 		}
 
 		completion_reward = {
-			
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1 	
+			}
+
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+
+			add_opinion_modifier = { target = MAL modifier = NZL_strengthen_ties }
+			MAL = {
+				add_opinion_modifier = { target = NZL modifier = NZL_strengthen_ties }
+
+				add_timed_idea = {
+					idea = NZL_BNZ_trade_agreement
+					days = 300
+				}
+			}
 		}
 	}
 
@@ -3256,7 +3292,7 @@
 
 		}
 
-		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL }
 
 		complete_tooltip = {
 
