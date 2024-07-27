@@ -32,7 +32,7 @@
 		id = NZL_transfer_the_new_zealand_division
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		# BNZ: Moved this over
-		x = 19
+		x = 20 # 16
 		y = 0
 
 		cost = 10
@@ -415,7 +415,7 @@
 		id = NZL_expand_the_nzpaf
 		icon = GFX_goal_generic_air_doctrine
 		# BNZ: Made this relative to the navy focuses
-		x = 5
+		x = 5 # 21
 		y = 0
 		relative_position_id = NZL_transfer_the_new_zealand_division
 
@@ -770,7 +770,7 @@
 		id = NZL_national_roads_board
 		icon = GFX_goal_generic_construct_infrastructure
 		# BNZ: Made this relative to the air focuses
-		x = 4
+		x = 4 # 25
 		y = 0
 		relative_position_id = NZL_expand_the_nzpaf
 
@@ -1338,7 +1338,7 @@
 		id = NZL_army_reforms
 		icon = GFX_goal_generic_army_doctrines
 		# BNZ: Made this relative to the industry focuses
-		x = 5
+		x = 5 # 30
 		y = 0
 		relative_position_id = NZL_national_roads_board
 
@@ -1781,7 +1781,7 @@
 		icon = GFX_goal_anschluss
 		prerequisite = { focus = NZL_the_first_labor_government }
 		# BNZ: Moved this over
-		x = -4
+		x = -4 # -3
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
@@ -2055,7 +2055,7 @@
 
 			division_template = {
 				# BNZ: Unlocked the template
-				is_locked = no
+				is_locked = no # yes
 				name = "Maori Volunteers"
 				division_names_group = NZL_INF_01
 				regiments = {
@@ -2152,7 +2152,7 @@
 		prerequisite = { focus = NZL_the_first_labor_government }
 		mutually_exclusive = { focus = NZL_strengthen_the_commonwealth }
 		# BNZ: Moved this over
-		x = 7
+		x = 8 # 5
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
@@ -2298,10 +2298,11 @@
 		# BNZ: Changed mutually exclusive
 		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act }
+		
 		# BNZ: Changed position
-		x = 2
-		y = 0
-		relative_position_id = NZL_in_the_darkness
+		x = -2 # 1
+		y = 1
+		relative_position_id = NZL_statute_of_westminster
 
 		cost = 10
 
@@ -2381,7 +2382,12 @@
 		id = NZL_join_comintern
 		icon = GFX_goal_generic_alliance
 		prerequisite = { focus = NZL_empower_the_working_class }
-		x = 0
+
+		# BNZ: Made exclusive with Rule Them All
+		mutually_exclusive = { focus = NZL_rule_them_all }
+
+		# BNZ: Moved this
+		x = 1
 		y = 2
 		relative_position_id = NZL_the_lee_affair
 
@@ -2415,9 +2421,10 @@
 		id = NZL_technology_sharing_with_soviet_union
 		icon = GFX_goal_tfv_generic_tech_sharing
 		prerequisite = { focus = NZL_join_comintern }
+		# BNZ: Moved this
 		x = 0
-		y = 3
-		relative_position_id = NZL_the_lee_affair
+		y = 1
+		relative_position_id = NZL_join_comintern
 
 		cost = 10
 
@@ -2461,7 +2468,9 @@
 		# BNZ: Changed mutually exclusive
 		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
-		x = -4
+		
+		# BNZ: Moved this
+		x = -4 # -3
 		y = 1
 		relative_position_id = NZL_statute_of_westminster
 
@@ -2493,13 +2502,17 @@
 	}
 
 	focus = {
-		# BNZ: Modified the basic info of the focus
 		id = NZL_befriend_japan
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = NZL_BNZ_purge_traitors }	
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_purge_traitors
+
+		# BNZ: Changed prerequisite
+		prerequisite = { focus = NZL_BNZ_purge_traitors } # NZL_in_the_darkness 
+		mutually_exclusive = { focus = NZL_rule_them_all }
+
+		# BNZ: Moved the focus
+		x = -1 # 0
+		y = 2 # 1
+		relative_position_id = NZL_in_the_darkness
 
 		cost = 10
 
@@ -2530,16 +2543,68 @@
 		}
 	}
 
-	# BNZ: Removed Rule Them All
+	# BNZ: Repurposed Rule Them All
+	focus = {
+		id = NZL_rule_them_all
+		icon = GFX_goal_generic_demand_territory
+
+		# BNZ: Modified basic info
+		prerequisite = { focus = NZL_BNZ_purge_traitors focus = NZL_empower_the_working_class }
+		mutually_exclusive = { focus = NZL_befriend_japan focus = NZL_join_comintern }
+		# prerequisite = { focus = NZL_in_the_darkness }
+		# mutually_exclusive = { focus = NZL_befriend_japan }
+		
+		# BNZ: Moved this
+		x = 1 # 2
+		y = 2 # 1
+		relative_position_id = NZL_in_the_darkness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			# BNZ: We move the annex wargoal to another focus
+			add_political_power = 50
+			#if = {
+			#	limit = { AST = { NOT = { has_government = ROOT } } }
+			#	create_wargoal = {
+			#		type = annex_EVERYTHING#!!!!!
+			#		target = AST
+			#		expire = 0
+			#	}
+			#	else = {
+			#		add_political_power = 50
+			#	}
+			#}
+		}
+	}
 
 	focus = {
-		# BNZ: Modified the basic info of the focus
 		id = NZL_technology_sharing_with_japan
 		icon = GFX_goal_tfv_generic_tech_sharing
 		prerequisite = { focus = NZL_befriend_japan }
+		# BNZ: Moved this
 		x = 0
-		y = 1
-		relative_position_id = NZL_befriend_japan
+		y = 1 # 2
+		relative_position_id = NZL_befriend_japan # NZL_in_the_darkness
 
 		cost = 10
 
@@ -2580,10 +2645,11 @@
 		# BNZ: Changed mutually exclusive
 		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_in_the_darkness }
+		
 		# BNZ: Moved this
-		x = 2
-		y = 0
-		relative_position_id = NZL_the_lee_affair
+		x = 2 # 3
+		y = 0 # 1
+		relative_position_id = NZL_the_lee_affair # NZL_statute_of_westminster
 
 		cost = 10
 
@@ -3187,7 +3253,16 @@
 		}
 
 		completion_reward = {
-			set_rule = { can_create_factions = yes }
+			# Copied from the commie focus
+			ENG = { remove_from_faction = ROOT }
+			add_political_power = 100
+			OVERLORD = {
+				set_autonomy = {
+					target = NZL
+					autonomy_state = autonomy_free
+				}
+			}
+			
 		}
 	}
 }

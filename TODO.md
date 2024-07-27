@@ -1,6 +1,7 @@
 # To Do List
 ## Done
-These need adding to the description and changelog
+These need adding to the description and changelog.
+
 - Unlocked the Maori and Polynesian volunteers templates
 - Tweaked the descriptions of some focuses
 - Added more victory points to NZ
@@ -17,6 +18,8 @@ These need adding to the description and changelog
 
 ## Next Release
 - FIX ICON
+- Add bypasses for focuses that can be done easily - stuff like factions and independence
+- Remove bypasses for focuses that give NZ equipment
 
 - Non-Aligned Paths
   - Monarchist
@@ -38,7 +41,6 @@ These need adding to the description and changelog
 - Add new flag for communist NZ
 - Maybe make new flags for Polynesia
 
-- Remove bypasses for focuses that give NZ equipment
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
 
@@ -47,19 +49,3 @@ These need adding to the description and changelog
 - Could also make the Develop Polynesia focuses unlock decisions instead, and have a decision for each island
 - Could also make the demand islands decisions more controlled by having a decision for each state
 - Could move the Polynesia focuses to the same place as Australia focuses
-
-# Pasted Code
-	set_rule = { can_create_factions = yes }
-	# BNZ: We move the annex wargoal to another focus
-	add_political_power = 50
-	#if = {
-	#	limit = { AST = { NOT = { has_government = ROOT } } }
-	#	create_wargoal = {
-	#		type = annex_EVERYTHING#!!!!!
-	#		target = AST
-	#		expire = 0
-	#	}
-	#	else = {
-	#		add_political_power = 50
-	#	}
-	#}
