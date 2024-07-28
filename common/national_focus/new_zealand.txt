@@ -2388,7 +2388,7 @@
 		mutually_exclusive = { focus = NZL_rule_them_all }
 
 		# BNZ: Moved this
-		x = 1
+		x = 1 # 0
 		y = 2
 		relative_position_id = NZL_the_lee_affair
 
@@ -2424,8 +2424,8 @@
 		prerequisite = { focus = NZL_join_comintern }
 		# BNZ: Moved this
 		x = 0
-		y = 1
-		relative_position_id = NZL_join_comintern
+		y = 1 # 3
+		relative_position_id = NZL_join_comintern # NZL_the_lee_affair
 
 		cost = 10
 

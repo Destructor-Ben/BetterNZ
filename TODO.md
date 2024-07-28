@@ -2,27 +2,14 @@
 ## Done
 These need adding to the description and changelog.
 
-- Unlocked the Maori and Polynesian volunteers templates
-- Tweaked the descriptions of some focuses
-- Empower the Working Class and Independent New Zealand no longer force you to leave the allies
-- Independent New Zealand gives a new idea that buffs stability, war support, and manpower
-- Gave Rule Them All a war support buff
-- Added more victory points to NZ
-  - Hamilton - 5
-  - Tauranga - 5
-  - Palmerston North - 1
-  - Napier - 1
-  - New Plymouth - 1
-- Modified existing victory points
-  - Wellington - 20
-  - Auckland - 10
-  - Christchurch - 5
-  - Dunedin - 3
+FIGURE OUT WHAT I NEED TO DO TO THE FOCUS TREE
+
 - Added new focuses for the commonwealth path
 - Added 2 Non-Aligned paths
 
 ## Next Release
 - FIX ICON
+
 - Add bypasses for focuses that can be done easily - stuff like factions and independence
 - Remove bypasses for focuses that give NZ equipment
 
@@ -37,8 +24,6 @@ These need adding to the description and changelog.
 	- Apirana Ngata
 	- Te Puea Herangi
 
-- Australia Focuses
-
 ## Future
 ### Content
 - Add more states to the map for islands
@@ -50,6 +35,7 @@ These need adding to the description and changelog.
 
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
+- Australia Focuses
 
 ### Balance/Tweaks
 - Make RPS and APS state lists in code - ETH_transfer_promised_states
