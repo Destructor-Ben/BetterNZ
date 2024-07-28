@@ -2,17 +2,14 @@
 ## Done
 These need adding to the description and changelog.
 
-FIGURE OUT WHAT I NEED TO DO TO THE FOCUS TREE
-
 - Added new focuses for the commonwealth path
 
 - Removed the useless part of Empowering the Working Class since NZ is already free
 - Added bypasses for the communist and fascist faction focuses
+- Added new focus - Purge Commonwealth Traitors
 
 ## Next Release
 - FIX ICON
-
-- Make the Purge Traitors also get a good buff - ALSO ADD DESCRIPTION - MAYBE CHANGE THE COMMUNIST FOCUS
 
 - Non-Aligned Paths
   - Monarchist
