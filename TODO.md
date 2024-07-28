@@ -5,24 +5,23 @@ These need adding to the description and changelog.
 FIGURE OUT WHAT I NEED TO DO TO THE FOCUS TREE
 
 - Added new focuses for the commonwealth path
-- Added 2 Non-Aligned paths
+
+- Removed the useless part of Empowering the Working Class since NZ is already free
+- Added bypasses for the communist and fascist faction focuses
 
 ## Next Release
 - FIX ICON
 
-- Add bypasses for focuses that can be done easily - stuff like factions and independence
-- Remove bypasses for focuses that give NZ equipment
-
-- Make the Purge Traitors also get a good buff
+- Make the Purge Traitors also get a good buff - ALSO ADD DESCRIPTION - MAYBE CHANGE THE COMMUNIST FOCUS
 
 - Non-Aligned Paths
   - Monarchist
-	- Take Edward VIII from UK after his abdication and stage a coup
-	- King Edward abdicated on 10th December 1936
+    - Take Edward VIII from UK after his abdication and stage a coup
+    - King Edward abdicated on 10th December 1936
   - Maori - Civil war!
     - Create a Maori Government
-	- Apirana Ngata
-	- Te Puea Herangi
+    - Apirana Ngata
+    - Te Puea Herangi
 
 ## Future
 ### Content
@@ -36,6 +35,7 @@ FIGURE OUT WHAT I NEED TO DO TO THE FOCUS TREE
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
 - Australia Focuses
+- Remove bypasses for focuses that give NZ equipment - navy one and the coastal defense focus
 
 ### Balance/Tweaks
 - Make RPS and APS state lists in code - ETH_transfer_promised_states

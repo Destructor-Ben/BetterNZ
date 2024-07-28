@@ -2359,18 +2359,21 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+		# BNZ: Remove the autonomy filter
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY } # FOCUS_FILTER_TFV_AUTONOMY
 
 		completion_reward = {
 			# BNZ: Don't leave faction
 			# ENG = { remove_from_faction = ROOT }
 			add_political_power = 100
-			OVERLORD = {
-				set_autonomy = {
-					target = NZL
-					autonomy_state = autonomy_free
-				}
-			}
+			
+			# BNZ: Remove the useless advancing to free since it already isn't a subject
+			# OVERLORD = {
+			# 	set_autonomy = {
+			# 		target = NZL
+			# 		autonomy_state = autonomy_free
+			# 	}
+			# }
 
 			swap_ideas = {
 				remove_idea = NZL_the_workers_party_1
@@ -2406,7 +2409,8 @@
 		}
 
 		bypass = {
-
+			# BNZ: Add bypass
+			is_in_faction_with = SOV
 		}
 
 		cancel_if_invalid = yes
@@ -2532,7 +2536,8 @@
 		}
 
 		bypass = {
-
+			# BNZ: Add bypass
+			is_in_faction_with = JAP
 		}
 
 		cancel_if_invalid = yes
@@ -3184,7 +3189,7 @@
 
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
 
@@ -3236,7 +3241,7 @@
 
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
 
@@ -3292,7 +3297,7 @@
 
 		}
 
-		search_filters = { FOCUS_FILTER_TFV_AUTONOMY FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		complete_tooltip = {
 
@@ -3300,12 +3305,7 @@
 
 		completion_reward = {
 			add_political_power = 100
-			OVERLORD = {
-				set_autonomy = {
-					target = NZL
-					autonomy_state = autonomy_free
-				}
-			}
+
 			
 		}
 	}
