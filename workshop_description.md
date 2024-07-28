@@ -16,7 +16,6 @@ Some focuses in the shared part of the focus tree have also been changed:
   [*]Maori Volunteers no longer unlocks the decisions to demand islands, but has a better division template that is unlocked and gives stability and war support buffs
 [/list]
 
-TODO: update the image
 [img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_polynesia_focuses.png[/img]
 
 [h2]Tweaked Political Section of Focus Tree[/h2]
@@ -58,7 +57,7 @@ New cities:
   [*]New Plymouth - 1 VP
 [/list]
 
-TODO: an image
+[img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_cities.png[/img]
 
 [h1]Links[/h1]
 [url=https://github.com/Destructor-Ben/BetterNZ]Github Repository[/url]
