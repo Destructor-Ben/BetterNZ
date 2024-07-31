@@ -4,13 +4,12 @@ This mod is in active development and is subject to change.
 
 [hr][/hr]
 [h1]Features[/h1]
-
 [h2]Unite Polynesia Section of Focus Tree[/h2]
 The Unite Polynesia decisions have been moved into focuses and expanded upon.
 
 Furthermore, 3 states are cored when Polynesia is united but used to be unable to be demanded (Taiwan, Pitcairn Island, and Easter Island). This has been changed. Islands can also be demanded after Polynesia is formed. The cores on Polynesia are also obtained when the Demand Pacific Islands focus is completed instead of when Polynesia is united.
 
-Some focuses in the shared part of the focus tree have also been changed:
+Some focuses in the shared part of the focus tree have also been changed.
 [list]
   [*]Completing Waitangi Tribunal removes the political power cost of Ratana Alliance
   [*]Maori Volunteers no longer unlocks the decisions to demand islands, but has a better division template that is unlocked and gives stability and war support buffs
@@ -21,10 +20,9 @@ Some focuses in the shared part of the focus tree have also been changed:
 [h2]Tweaked Political Section of Focus Tree[/h2]
 2 new focuses have been added for the Commonwealth involving trading with Australia and Malaysia.
 
-[b]I couldn't be bothered finishing these new paths so I released the other features without the new paths I've[/b]
 There are also 2 new politcal paths, both for Non-Aligned. The first creates a monarchy with Edward The VIII as king after his abdication, and the second starts a civil war between the Maori and Pakeha with you playing as the Maori.
 
-The vanilla political paths have additionally recieved some tweaks:
+The vanilla political paths have additionally recieved some tweaks.
 [list]
   [*]In the Darkness and The Lee Affair have buffed autonomy and ideology drift
   [*]Befriend Japan focus requirements are clearer - both New Zealand and Japan must be fascist
@@ -43,7 +41,7 @@ The vanilla political paths have additionally recieved some tweaks:
 [h2]Victory Points[/h2]
 Existing victory points for cities have been modified and new cities have been added.
 
-Modified cities:
+[b]Modified Cities[/b]
 [list]
   [*]Wellington - 20 VP
   [*]Auckland - 10 VP
@@ -51,7 +49,7 @@ Modified cities:
   [*]Dunedin - 3 VP
 [/list]
 
-New cities:
+[b]New Cities[/b]
 [list]
   [*]Hamilton - 5 VP
   [*]Tauranga - 5 VP
