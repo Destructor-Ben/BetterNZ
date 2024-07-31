@@ -3026,10 +3026,10 @@
 	}
 
 	### Monarchist Path ###
-	# Support Edward VIII TODO
+	# Support Edward VIII
 	focus = {
 		id = NZL_BNZ_coup_the_government
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_unknown
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_oppose_pakeha_government }
 		x = 2
@@ -3043,41 +3043,7 @@
 		}
 
 		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	# Institute Royal Dictatorship
-	focus = {
-		id = NZL_BNZ_institute_royal_dictatorship
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = NZL_BNZ_coup_the_government }
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_coup_the_government
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			
+			NZL = { exists = no }
 		}
 
 		bypass = {
@@ -3099,7 +3065,7 @@
 	# Oppose Pakeha Government
 	focus = {
 		id = NZL_BNZ_oppose_pakeha_government
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_unknown
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government }
 		x = 2
@@ -3113,41 +3079,7 @@
 		}
 
 		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	# Form Maori Government
-	focus = {
-		id = NZL_BNZ_form_maori_government
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_oppose_pakeha_government
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			
+			NZL = { exists = no }
 		}
 
 		bypass = {

@@ -21,6 +21,7 @@ Some focuses in the shared part of the focus tree have also been changed:
 [h2]Tweaked Political Section of Focus Tree[/h2]
 2 new focuses have been added for the Commonwealth involving trading with Australia and Malaysia.
 
+[b]I couldn't be bothered finishing these new paths so I released the other features without the new paths I've[/b]
 There are also 2 new politcal paths, both for Non-Aligned. The first creates a monarchy with Edward The VIII as king after his abdication, and the second starts a civil war between the Maori and Pakeha with you playing as the Maori.
 
 The vanilla political paths have additionally recieved some tweaks:
@@ -32,10 +33,12 @@ The vanilla political paths have additionally recieved some tweaks:
   [*]Rule Them All is included in the communist branch as well
   [*]Rule Them All now has a war support buff
   [*]Empower the Working Class and Independent New Zealand no longer force you to leave the allies
+  [*]Empower the Working Class no longer frees New Zealand because you must be free to complete it
   [*]Independent New Zealand gives a new idea that buffs stability, war support, and manpower
+  [*]Added bypasses for Befriend Japan and Join Cominterm
 [/list]
 
-TODO: images
+[img]https://raw.githubusercontent.com/Destructor-Ben/BetterNZ/release/workshop_politcal_focuses.png[/img]
 
 [h2]Victory Points[/h2]
 Existing victory points for cities have been modified and new cities have been added.
