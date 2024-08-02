@@ -1,20 +1,21 @@
 # To Do List
 ## Done
 These need adding to the description and changelog.
+- Buffed Purge Commonwealth Traitors from 5% war support to 10%
+- Added manpower buff to both Maori and Polynesian volunteers instead of stability and war support
 
 ## Next Release
 - FIX ICON
 
 - Non-Aligned Paths
   - Monarchist
-    - Take Edward VIII from UK after his abdication and stage a coup
-    - King Edward abdicated on 10th December 1936
-    - Rename the focus from coup_the_government to something relating to supporting him
-  - Maori - Civil war!
-    - Create a Maori Government
-    - Apirana Ngata
-    - Te Puea Herangi
+    - Edward VIIIs fake son, Edward IX becomes king
+  - Maori
     - Kingitanga
+	- Koroki Mahuta becomes leader
+	- Possible political advisors
+		- Apirana Ngata
+		- Te Puea Herangi
 
 ## Future
 ### Content
@@ -32,6 +33,7 @@ These need adding to the description and changelog.
 - Tweak focus completion times
 - Tweak focus filters
 - Make the AI for New Zealand good
+- Fix Maori spellings
 
 ### Balance/Tweaks
 - Make RPS and APS state lists in code - ETH_transfer_promised_states
@@ -40,73 +42,3 @@ These need adding to the description and changelog.
 - Could also make the Develop Polynesia focuses unlock decisions instead, and have a decision for each island
 - Could also make the demand islands decisions more controlled by having a decision for each state
 - Could move the Polynesia focuses to the same place as Australia focuses - maybe not, since the australia are just after the other focuses
-
-
-
-	# Institute Royal Dictatorship
-	focus = {
-		id = NZL_BNZ_institute_royal_dictatorship
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = NZL_BNZ_coup_the_government }
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_coup_the_government
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	# Form Maori Government
-	focus = {
-		id = NZL_BNZ_form_maori_government
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
-		x = 0
-		y = 1
-		relative_position_id = NZL_BNZ_oppose_pakeha_government
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		search_filters = { }
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			
-		}
-	}

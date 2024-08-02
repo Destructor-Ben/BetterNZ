@@ -2043,7 +2043,7 @@
 		}
 
 		# BNZ: Add search filters
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -2096,9 +2096,8 @@
 				}
 			}
 
-			# BNZ: Add stability and war support
-			add_stability = 0.05
-			add_war_support = 0.05
+			# BNZ: Add manpower
+			add_manpower = 13000
 		}
 	}
 
@@ -2296,7 +2295,7 @@
 		icon = GFX_goal_support_communism
 		prerequisite = { focus = NZL_statute_of_westminster }
 		# BNZ: Changed mutually exclusive
-		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act focus = NZL_BNZ_invite_edwards_son focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_constitution_amendment_act }
 		
 		# BNZ: Changed position
@@ -2471,7 +2470,7 @@
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = NZL_statute_of_westminster }
 		# BNZ: Changed mutually exclusive
-		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_invite_edwards_son focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
 		
 		# BNZ: Moved this
@@ -2651,7 +2650,7 @@
 		icon = GFX_goal_tfv_sever_ties_with_uk
 		prerequisite = { focus = NZL_statute_of_westminster }
 		# BNZ: Changed mutually exclusive
-		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_BNZ_coup_the_government focus = NZL_BNZ_oppose_pakeha_government }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_BNZ_invite_edwards_son focus = NZL_BNZ_oppose_pakeha_government }
 		# mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_in_the_darkness }
 		
 		# BNZ: Moved this
@@ -2977,7 +2976,7 @@
 
 		}
 
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		complete_tooltip = {
 
@@ -3020,16 +3019,15 @@
 			BNZ_create_polynesian_volunteer = yes
 			BNZ_create_polynesian_volunteer = yes
 
-			add_stability = 0.05
-			add_war_support = 0.05
+			add_manpower = 39000
 		}
 	}
 
 	### Monarchist Path ###
-	# Support Edward VIII
+	# Invite Edwards Son
 	focus = {
-		id = NZL_BNZ_coup_the_government
-		icon = GFX_goal_unknown
+		id = NZL_BNZ_invite_edwards_son
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_oppose_pakeha_government }
 		x = 2
@@ -3043,34 +3041,35 @@
 		}
 
 		available = {
-			NZL = { exists = no }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 
 		bypass = {
 
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_TFV_AUTONOMY }
 
 		complete_tooltip = {
 
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = NZL_first_labor_government
+				add_idea = NZL_BNZ_polynesian_conscription
+			}
 		}
 	}
 
-	### Maori Path ###
-	# Oppose Pakeha Government
+	# Institute Absolute Monarchy
 	focus = {
-		id = NZL_BNZ_oppose_pakeha_government
-		icon = GFX_goal_unknown
-		prerequisite = { focus = NZL_statute_of_westminster }
-		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_coup_the_government }
-		x = 2
-		y = 0
-		relative_position_id = NZL_BNZ_coup_the_government
+		id = NZL_BNZ_institute_absolute_monarchy
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = NZL_BNZ_invite_edwards_son }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_invite_edwards_son
 
 		cost = 10
 
@@ -3079,21 +3078,100 @@
 		}
 
 		available = {
-			NZL = { exists = no }
+			is_subject = no
+			has_government = neutrality
+			NOT = { has_war_together_with = ENG }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 
 		bypass = {
 
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		complete_tooltip = {
 
 		}
 
 		completion_reward = {
-			
+			add_political_power = 100
+		}
+	}
+
+	### Maori Path ###
+	# Oppose Pakeha Government
+	focus = {
+		id = NZL_BNZ_oppose_pakeha_government
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = NZL_statute_of_westminster }
+		mutually_exclusive = { focus = NZL_in_the_darkness focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act focus = NZL_BNZ_invite_edwards_son }
+		x = 2
+		y = 0
+		relative_position_id = NZL_BNZ_invite_edwards_son
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_TFV_AUTONOMY }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = NZL_first_labor_government
+				add_idea = NZL_BNZ_polynesian_conscription
+			}
+		}
+	}
+
+	# Form Maori Government
+	focus = {
+		id = NZL_BNZ_form_maori_government
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_oppose_pakeha_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			is_subject = no
+			has_government = neutrality
+			NOT = { has_war_together_with = ENG }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
 		}
 	}
 
@@ -3239,7 +3317,7 @@
 			add_political_power = 100
 
 			add_stability = -0.05
-			add_war_support = 0.05
+			add_war_support = 0.1
 		}
 	}
 }

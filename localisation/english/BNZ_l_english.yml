@@ -37,8 +37,16 @@
   NZL_BNZ_polynesian_volunteers: "Polynesian Volunteers"
   NZL_BNZ_polynesian_volunteers_desc: "Now that Polynesia is no longer under oppressive hands, hundreds of Polynesians are volunteering for military service."
 
-  NZL_BNZ_coup_the_government: "Monarchist Non-Aligned Path Coming Soon"
-  NZL_BNZ_oppose_pakeha_government: "Maori Non-Aligned Path Coming Soon"
+  NZL_BNZ_invite_edwards_son: "Invite Edward VII's Son"
+  NZL_BNZ_invite_edwards_son_desc: "With the son of Edward VIII announcing himself as Edward IX, we should invite him to establish New Zealand's first monarchy to rid the country of the Labour government."
+  NZL_BNZ_institute_absolute_monarchy: "Institute Absolute Monarchy"
+  NZL_BNZ_institute_absolute_monarchy_desc: "Edward IX is now the ruler of New Zealand, so he should have his power consolidated and form an absolute monarchy with full control over the country."
+
+  NZL_BNZ_oppose_pakeha_government: "Oppose Pakeha Government"
+  NZL_BNZ_oppose_pakeha_government_desc: "The Pakeha government has become too oppressive to Maori, and after the colonialism of Aotearoa and the Maori Land Wars, they are ready to start."
+
+  NZL_BNZ_form_maori_government: "Form Maori Government"
+  NZL_BNZ_form_maori_government_desc: "Now that "
 
   NZL_BNZ_deal_with_australia: "Deal With Australia"
   NZL_BNZ_deal_with_australia_desc: "New Zealand and Australia both need to develop their economies. Perhaps they would like to make a trade deal with us that favours both parties."
