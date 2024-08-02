@@ -5,6 +5,8 @@
   NZL_BNZ_polynesian_conscription: "Polynesian Conscription"
   NZL_BNZ_independent_nz: "Independent New Zealand"
   NZL_BNZ_trade_agreement: "New Zealand Trade Agreement"
+  NZL_BNZ_monarchy_gov: "First New Zealand Kingdom"
+  NZL_BNZ_maori_gov: "Kingitanga"
 
   # Decisions
   NZL_BNZ_form_polynesia: "Unite Polynesia"
@@ -16,6 +18,21 @@
   VICTORY_POINTS_4804: "Palmerston North"
   VICTORY_POINTS_1801: "Napier"
   VICTORY_POINTS_12604: "New Plymouth"
+
+  # Characters
+  NZL_BNZ_edward_ix: "Edward IX"
+
+  # Tooltips:
+  NZL_BNZ_rename_monarchy_tt: "§YNew Zealand§! will be known as §Ythe Kingdom of New Zealand§!.\n"
+
+  # Political parties
+  NZL_BNZ_neutrality_party_monarchy: "The Crown"
+  NZL_BNZ_neutrality_party_monarchy_long: "The Crown of New Zealand"
+
+  # Country names
+  NZL_kingdom_of_nz_neutrality: "Kingdom of New Zealand"
+  NZL_kingdom_of_nz_neutrality_ADJ: "New Zealand"
+  NZL_kingdom_of_nz_neutrality_DEF: "The Kingdom of New Zealand"
 
   # Focuses
   NZL_rule_them_all_desc: "Joining a faction would lead us to being controlled by major powers. New Zealand must lead itself to victory rather than rely on a larger nation to carry us."
@@ -37,16 +54,16 @@
   NZL_BNZ_polynesian_volunteers: "Polynesian Volunteers"
   NZL_BNZ_polynesian_volunteers_desc: "Now that Polynesia is no longer under oppressive hands, hundreds of Polynesians are volunteering for military service."
 
-  NZL_BNZ_invite_edwards_son: "Invite Edward VII's Son"
-  NZL_BNZ_invite_edwards_son_desc: "With the son of Edward VIII announcing himself as Edward IX, we should invite him to establish New Zealand's first monarchy to rid the country of the Labour government."
+  NZL_BNZ_invite_edwards_son: "Invite Edward VIII's Son"
+  NZL_BNZ_invite_edwards_son_desc: "Edward IX, the Kiwi-born, abandoned son of King Edward VIII, has been rising in popularity. Inviting him to become the King of New Zealand will bring the British royal lineage to our country to end the wasteful bureacracy that is the current government."
   NZL_BNZ_institute_absolute_monarchy: "Institute Absolute Monarchy"
-  NZL_BNZ_institute_absolute_monarchy_desc: "Edward IX is now the ruler of New Zealand, so he should have his power consolidated and form an absolute monarchy with full control over the country."
+  NZL_BNZ_institute_absolute_monarchy_desc: "Edward IX is popular enough to take control of the government and begin his reign as the King of New Zealand. With his ascendance, his power should be consolidated and an absolute monarchy formed to bring New Zealand under his full control."
 
   NZL_BNZ_oppose_pakeha_government: "Oppose Pakeha Government"
-  NZL_BNZ_oppose_pakeha_government_desc: "The Pakeha government has become too oppressive to Maori, and after the colonialism of Aotearoa and the Maori Land Wars, they are ready to start."
+  NZL_BNZ_oppose_pakeha_government_desc: "The Pakeha government has become too oppressive to Maori, and after the colonialism of Aotearoa and the Maori Land Wars, they are ready to protest against the abuse."
 
   NZL_BNZ_form_maori_government: "Form Maori Government"
-  NZL_BNZ_form_maori_government_desc: "Now that "
+  NZL_BNZ_form_maori_government_desc: "Sufficient support for the Maori government has been achieved, so it is possible for them to rightfully take control of Aotearoa once again."
 
   NZL_BNZ_deal_with_australia: "Deal With Australia"
   NZL_BNZ_deal_with_australia_desc: "New Zealand and Australia both need to develop their economies. Perhaps they would like to make a trade deal with us that favours both parties."

@@ -351,6 +351,36 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
+
+		# Monarchist government buff
+		NZL_BNZ_monarchy_gov = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = neutrality }
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				autonomy_gain = 3
+				neutrality_drift = 0.03
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		# Maori government buff
+		NZL_BNZ_maori_gov = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = neutrality }
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				autonomy_gain = 3
+				neutrality_drift = 0.03
+				production_speed_buildings_factor = 0.1
+			}
+		}
 	}
 
 	naval_manufacturer = {
