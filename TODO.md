@@ -5,26 +5,34 @@ These need adding to the description and changelog.
 - Added manpower buff to both Maori and Polynesian volunteers instead of stability and war support
 
 ## Next Release
-- FIX ICON
-
 - Non-Aligned Paths
+  - Fix the flags
+  - Fix the portraits
+
+  - Add decisions to promote the government
   - Monarchist
     - Edward VIIIs fake son, Edward IX becomes king
+    - Add decisions to promote the monarchy
+    - Add focus tree path to overthrow the British monarchy and take control over the British empire
   - Maori
     - Kingitanga
-	- Koroki Mahuta becomes leader
-	- Possible political advisors
-		- Apirana Ngata
-		- Te Puea Herangi
+    - Koroki Mahuta becomes leader
+    - Possible political advisors
+      - Apirana Ngata
+      - Te Puea Herangi
+    - Add rename place names focus
+    - Add decisions to promote a Maori government
+
+- Flags
+  - Add new flag for communist NZ
+  - Add new flags for polynesia
+  - Add new flags for non-aligned NZ maori and monarchy paths
 
 ## Future
 ### Content
 - Add more states to the map for islands
 - Add more government employees and generals
 - Add more initial research for NZ
-
-- Add new flag for communist NZ
-- Maybe make new flags for Polynesia
 
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia

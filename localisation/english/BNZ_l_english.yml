@@ -19,20 +19,23 @@
   VICTORY_POINTS_1801: "Napier"
   VICTORY_POINTS_12604: "New Plymouth"
 
-  # Characters
+  # Monarchy
   NZL_BNZ_edward_ix: "Edward IX"
-
-  # Tooltips:
-  NZL_BNZ_rename_monarchy_tt: "§YNew Zealand§! will be known as §Ythe Kingdom of New Zealand§!.\n"
-
-  # Political parties
   NZL_BNZ_neutrality_party_monarchy: "The Crown"
   NZL_BNZ_neutrality_party_monarchy_long: "The Crown of New Zealand"
+  NZL_BNZ_rename_monarchy_tt: "§YNew Zealand§! will be known as §Ythe Kingdom of New Zealand§!.\n"
+  NZL_BNZ_kingdom_of_nz_neutrality: "Kingdom of New Zealand"
+  NZL_BNZ_kingdom_of_nz_neutrality_DEF: "the Kingdom of New Zealand"
+  NZL_BNZ_kingdom_of_nz_neutrality_ADJ: "New Zealand"
 
-  # Country names
-  NZL_kingdom_of_nz_neutrality: "Kingdom of New Zealand"
-  NZL_kingdom_of_nz_neutrality_ADJ: "New Zealand"
-  NZL_kingdom_of_nz_neutrality_DEF: "The Kingdom of New Zealand"
+  # Maori
+  NZL_BNZ_koroki_mahuta: "Koroki Mahuta"
+  NZL_BNZ_neutrality_party_maori: "Kingitanga"
+  NZL_BNZ_neutrality_party_maori_long: "Kingitanga o Aotearoa"
+  NZL_BNZ_rename_maori_tt: "§YNew Zealand§! will be known as §YAotearoa§!.\n"
+  NZL_BNZ_kingitanga_neutrality: "Aotearoa"
+  NZL_BNZ_kingitanga_neutrality_DEF: "Aotearoa"
+  NZL_BNZ_kingitanga_neutrality_ADJ: "Maori"
 
   # Focuses
   NZL_rule_them_all_desc: "Joining a faction would lead us to being controlled by major powers. New Zealand must lead itself to victory rather than rely on a larger nation to carry us."
@@ -65,9 +68,9 @@
   NZL_BNZ_form_maori_government: "Form Maori Government"
   NZL_BNZ_form_maori_government_desc: "Sufficient support for the Maori government has been achieved, so it is possible for them to rightfully take control of Aotearoa once again."
 
-  NZL_BNZ_deal_with_australia: "Deal With Australia"
+  NZL_BNZ_deal_with_australia: "Trade With Australia"
   NZL_BNZ_deal_with_australia_desc: "New Zealand and Australia both need to develop their economies. Perhaps they would like to make a trade deal with us that favours both parties."
-  NZL_BNZ_deal_with_malaysia: "Deal With Malaysia"
+  NZL_BNZ_deal_with_malaysia: "Trade With Malaysia"
   NZL_BNZ_deal_with_malaysia_desc: "New Zealand and Malaysia both need to develop their economies. Perhaps they would like to make a trade deal with us that favours both parties."
 
   NZL_BNZ_purge_traitors: "Purge Commonwealth Traitors"

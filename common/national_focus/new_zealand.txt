@@ -3064,13 +3064,10 @@
 
 			create_country_leader = {
 				name = "Edward IX"
-				desc = "NZL_BNZ_POLITICS_EDWARD_IX_DESC"
-				picture = GFX_Portrait_romania_Carol_II				
+				desc = ""
+				picture = GFX_NZL_BNZ_edward_ix				
 				expire = "1965.1.1"
 				ideology = despotism
-				traits = {
-					hedonist
-				}
 				id = 69420
 			}
 		}
@@ -3113,7 +3110,7 @@
 			set_rule = { can_create_factions = yes }
 
 			custom_effect_tooltip = NZL_BNZ_rename_monarchy_tt
-			hidden_effect = { set_cosmetic_tag = NZL_kingdom_of_nz }
+			hidden_effect = { set_cosmetic_tag = NZL_BNZ_kingdom_of_nz }
 
 			set_politics = { ruling_party = neutrality elections_allowed = no }
 			add_popularity = { ideology = neutrality popularity = 0.1 }
@@ -3198,7 +3195,7 @@
 	}
 
 	### Extension of Commonwealth Path ###
-	# Deal with Australia
+	# Trade with Australia
 	focus = {
 		id = NZL_BNZ_deal_with_australia
 		icon = GFX_goal_tripartite_pact
@@ -3250,7 +3247,7 @@
 		}
 	}
 
-	# Deal with Malaysia
+	# Trade with Malaysia
 	focus = {
 		id = NZL_BNZ_deal_with_malaysia
 		icon = GFX_goal_tripartite_pact

@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_NZL_BNZ_edward_ix"
+		textureFile = "gfx/leaders/NZL/Portrait_New_Zealand_Edward_IX.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_NZL_BNZ_koroki_mahuta"
+		textureFile = "gfx/leaders/NZL/Portrait_New_Zealand_Koroki_Mahuta.dds"
+	}
+	
+}
