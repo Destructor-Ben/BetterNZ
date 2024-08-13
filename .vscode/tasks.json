@@ -4,20 +4,12 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "../HOI4-Mod-Helper/src/HOI4ModHelper/bin/Debug/net8.0/HOI4ModHelper.exe",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "command": "../HOI4-Mod-Helper/src/HOI4ModHelper/bin/Debug/net8.0/HOI4ModHelper.exe"
     },
     {
       "label": "Build and Watch Files",
       "type": "shell",
-      "command": "../HOI4-Mod-Helper/src/HOI4ModHelper/bin/Debug/net8.0/HOI4ModHelper.exe -w",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "command": "../HOI4-Mod-Helper/src/HOI4ModHelper/bin/Debug/net8.0/HOI4ModHelper.exe -w"
     }
   ]
 }
