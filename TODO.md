@@ -30,7 +30,6 @@ These need adding to the description and changelog.
 
 ## Future
 
-- Fix localisation key collisions - Maybe overwrite the vanilla file?
 - Make sure image conversions are working properly
   - Remove SVG support
   - Move DDS stuff into the same solution as HOI4ModHelper
