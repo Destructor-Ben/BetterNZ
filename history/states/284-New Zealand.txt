@@ -55,6 +55,11 @@ state={
 			12604 1
 		}
 
+		# Wanganui
+		victory_points = {
+			12617 1
+		}
+
 		add_core_of = NZL
 	}
 
