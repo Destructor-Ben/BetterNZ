@@ -8,11 +8,15 @@ These need adding to the description and changelog.
 
 ## Next Release
 
-- Add Wanganui and option to rename it
+- Focus shortcuts
 
-- Non-Aligned Paths
-  - Fix the flags
-  - Fix the portraits
+	# BNZ: Add focus shortcuts
+	
+	shortcut = {
+		name = NZL_BNZ_test_shortcut
+		target = NZL_2nzef
+		scroll_wheel_factor = 1.0
+	}
 
   - Add decisions to promote the government
   - Monarchist
@@ -26,24 +30,32 @@ These need adding to the description and changelog.
       - Apirana Ngata
       - Te Puea Herangi
     - Add rename place names focus
+      - Wanganui
+      - English named places
     - Add decisions to promote a Maori government
-
-- Flags
-  - Add new flag for communist NZ
-  - Add new flags for polynesia
-  - Add new flags for non-aligned NZ maori and monarchy paths
 
 ## Future
 
 - Make sure image conversions are working properly
+  - Remove SVG support
+  - Move DDS stuff into the same solution as HOI4ModHelper
+  - [17:43:34][1936.01.01.12][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/medium/NZL_BNZ_kingdom_of_nz_neutrality.tga : Unsupported format. Expected 32bpp, uncompressed, no color palette
 
 ### Content
+
+- New communist NZ flag
+- New Kingdom of NZ flag
+- New democratic Polynesia flag
+- New fascist Polynesia flag
+- New non-aligned Polynesia flag
+- Make the portraits look authentic
 
 - Add more states to the map for islands
 - Add more government employees and generals
 - Add more initial research for NZ
 
 - Figure out how gotterdamerung stuff like research works and add content for it
+- Make focus tree look more like German one
 
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
