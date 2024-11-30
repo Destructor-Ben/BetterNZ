@@ -1,10 +1,22 @@
 # To Do List
+
 ## Done
+
 These need adding to the description and changelog.
 - Buffed Purge Commonwealth Traitors from 5% war support to 10%
 - Added manpower buff to both Maori and Polynesian volunteers instead of stability and war support
 
 ## Next Release
+
+- Add Wanganui and option to rename it
+
+- Army branch
+  - Increase mobilization law
+  - Draft elite marines/tanks/infantry
+
+- Industry branch
+  - More free factories
+
 - Non-Aligned Paths
   - Fix the flags
   - Fix the portraits
@@ -29,7 +41,11 @@ These need adding to the description and changelog.
   - Add new flags for non-aligned NZ maori and monarchy paths
 
 ## Future
+
+- Make sure image conversions are working properly
+
 ### Content
+
 - Add more states to the map for islands
 - Add more government employees and generals
 - Add more initial research for NZ
@@ -44,6 +60,7 @@ These need adding to the description and changelog.
 - Fix Maori spellings
 
 ### Balance/Tweaks
+
 - Make RPS and APS state lists in code - ETH_transfer_promised_states
 - Road to '56 compatability
 - Maybe make the forts focus only give the bonus to a few random islands, since if it does all, then you may as well wait to get all of them
