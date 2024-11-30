@@ -447,6 +447,33 @@ ideas = {
 			}
 		}
 
+		NZL_nz_railways_ic = { 
+
+			picture = NZL_nz_railways
+
+			allowed = {
+				original_TAG = NZL
+				has_dlc = "Together for Victory"
+			}
+
+			available = {
+				
+			}
+
+
+			visible = {
+				
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { railway_company } 
+
+			modifier = {
+			}
+		}
+
 	}
 
 	materiel_manufacturer = {

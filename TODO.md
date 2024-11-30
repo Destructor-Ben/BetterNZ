@@ -10,13 +10,6 @@ These need adding to the description and changelog.
 
 - Add Wanganui and option to rename it
 
-- Army branch
-  - Increase mobilization law
-  - Draft elite marines/tanks/infantry
-
-- Industry branch
-  - More free factories
-
 - Non-Aligned Paths
   - Fix the flags
   - Fix the portraits
@@ -50,6 +43,8 @@ These need adding to the description and changelog.
 - Add more government employees and generals
 - Add more initial research for NZ
 
+- Figure out how gotterdamerung stuff like research works and add content for it
+
 - Add more economy focuses - Iron Sand?
 - Add more navy focuses - It needs to be possible for nz to invade Australia
 - Australia Focuses
@@ -58,6 +53,13 @@ These need adding to the description and changelog.
 - Tweak focus filters
 - Make the AI for New Zealand good
 - Fix Maori spellings
+
+- Army branch
+  - Increase mobilization law
+  - Draft elite marines/tanks/infantry
+
+- Industry branch
+  - More free factories
 
 ### Balance/Tweaks
 
