@@ -8,24 +8,23 @@ These need adding to the description and changelog.
 - Added new communist NZ flag
 - Added new communist Polynesia flag
 - Added focus shortcuts
+- Added Monarchist and Kingitanga paths (both non-aligned)
 
 ## Next Release
 
-- Add decisions to promote the government
+- Maybe make uniting polynesia require the government to be set in stone, since it changes the cosmetic tag too
+
+- Add decisions to promote the different government types to reduce sitting around
 - Monarchist
-  - Edward VIIIs fake son, Edward IX becomes king
-  - Add decisions to promote the monarchy
   - Add focus tree path to overthrow the British monarchy and take control over the British empire
 - Maori
-  - Kingitanga
-  - Koroki Mahuta becomes leader
+  - Allow changing flag to Tino Rangatiratanga
   - Possible political advisors
     - Apirana Ngata
     - Te Puea Herangi
   - Add rename place names focus
     - Wanganui
     - English named places
-  - Add decisions to promote a Maori government
 
 ## Future
 
