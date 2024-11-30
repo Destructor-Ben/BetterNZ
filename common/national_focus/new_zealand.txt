@@ -19,6 +19,43 @@
 	
 	default = no
 
+	# BNZ: Add focus shortcuts
+	shortcut = {
+		name = NZL_BNZ_politics_shortcut
+		target = NZL_the_first_labor_government
+		scroll_wheel_factor = 0.485
+	}
+	
+	shortcut = {
+		name = NZL_BNZ_polynesia_shortcut
+		target = NZL_BNZ_demand_polynesia
+		scroll_wheel_factor = 0.485
+	}
+
+	shortcut = {
+		name = GER_economic_path_shortcut
+		target = NZL_national_roads_board 
+		scroll_wheel_factor = 0.75
+	}
+
+	shortcut = {
+		name = GER_naval_doctrine_shortcut
+		target = NZL_transfer_the_new_zealand_division
+		scroll_wheel_factor = 1.0
+	}
+	
+	shortcut = {
+		name = GER_air_doctrine_shortcut
+		target = NZL_form_the_rnzaf
+		scroll_wheel_factor = 1.0
+	}
+
+	shortcut = {
+		name = GER_military_doctrine_shortcut
+		target = NZL_charlton_automatic_rifle
+		scroll_wheel_factor = 1.0
+	}
+
 	# BNZ: Move the continuous focus panel
 	continuous_focus_position = { x = 50 y = 1400 }
 
