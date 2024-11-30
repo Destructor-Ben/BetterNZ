@@ -30,11 +30,6 @@ These need adding to the description and changelog.
 
 ## Future
 
-- Make sure image conversions are working properly
-  - Remove SVG support
-  - Move DDS stuff into the same solution as HOI4ModHelper
-  - [17:43:34][1936.01.01.12][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/medium/NZL_BNZ_kingdom_of_nz_neutrality.tga : Unsupported format. Expected 32bpp, uncompressed, no color palette
-
 ### Content
 
 - New communist NZ flag
