@@ -12,6 +12,8 @@ These need adding to the description and changelog.
 
 ## Next Release
 
+- Improve the images in the description by using an entire image of the focus tree
+  - Also include a part about the focus shortcuts
 - Maybe make uniting polynesia require the government to be set in stone, since it changes the cosmetic tag too
 
 - Add decisions to promote the different government types to reduce sitting around
