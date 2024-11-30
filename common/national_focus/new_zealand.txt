@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = new_zealander_focus
 	
 	country = {
@@ -23,7 +23,7 @@
 	shortcut = {
 		name = NZL_BNZ_politics_shortcut
 		target = NZL_the_first_labor_government
-		scroll_wheel_factor = 0.8
+		scroll_wheel_factor = 0.75
 	}
 
 	shortcut = {
