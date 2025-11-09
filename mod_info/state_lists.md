@@ -1,4 +1,5 @@
 # Required Polynesian States (RPS)
+
 ```
 North Island     = 284
 South Island     = 723
@@ -11,6 +12,7 @@ Saipan           = 646
 ```
 
 # All Polynesian States (APS)
+
 ```
 North Island     = 284
 South Island     = 723

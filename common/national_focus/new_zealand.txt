@@ -3228,6 +3228,48 @@ focus_tree = {
 				add_idea = NZL_BNZ_maori_gov
 			}
 
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+		}
+	}
+
+	# Form Maori Government
+	focus = {
+		id = NZL_BNZ_form_maori_government
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_oppose_pakeha_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
 			set_party_name = { ideology = neutrality long_name = NZL_BNZ_neutrality_party_maori_long name = NZL_BNZ_neutrality_party_maori }
 
 			create_country_leader = {
@@ -3238,17 +3280,22 @@ focus_tree = {
 				ideology = despotism
 				id = 69421
 			}
+
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
 		}
 	}
 
-	# Form Maori Government
+	# Unite the Tribes
 	focus = {
-		id = NZL_BNZ_form_maori_government
+		id = NZL_BNZ_unite_the_tribes
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = NZL_BNZ_oppose_pakeha_government }
+		prerequisite = { focus = NZL_BNZ_form_maori_government }
 		x = 0
 		y = 1
-		relative_position_id = NZL_BNZ_oppose_pakeha_government
+		relative_position_id = NZL_BNZ_form_maori_government
 
 		cost = 10
 
@@ -3277,11 +3324,50 @@ focus_tree = {
 			add_political_power = 100
 			set_rule = { can_create_factions = yes }
 
-			custom_effect_tooltip = NZL_BNZ_rename_maori_tt
+			custom_effect_tooltip = NZL_BNZ_rename_maori_1_tt
 			hidden_effect = { set_cosmetic_tag = NZL_BNZ_kingitanga }
 
 			set_politics = { ruling_party = neutrality elections_allowed = no }
 			add_popularity = { ideology = neutrality popularity = 0.1 }
+		}
+	}
+
+	# Tino Rangatiratanga
+	# TODO: this should have a custom icon, it would be very cool
+	focus = {
+		id = NZL_BNZ_tino_rangatiratanga
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = NZL_BNZ_unite_the_tribes }
+		x = 0
+		y = 1
+		relative_position_id = NZL_BNZ_unite_the_tribes
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			# TODO: make it a decision to change the flag here
+			custom_effect_tooltip = NZL_BNZ_rename_maori_2_tt
+			hidden_effect = { set_cosmetic_tag = NZL_BNZ_tino_rangatiratanga }
+
+			add_ideas = NZL_BNZ_tino_rangatiratanga_idea
 		}
 	}
 

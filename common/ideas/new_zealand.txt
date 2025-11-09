@@ -381,6 +381,20 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
+
+		# Tino rangatiratanga
+		NZL_BNZ_tino_rangatiratanga_idea = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = neutrality }
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				stability_weekly = 0.01
+				# TODO: actually good buffs here pls
+			}
+		}
 	}
 
 	naval_manufacturer = {

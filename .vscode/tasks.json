@@ -4,7 +4,7 @@
     {
       "label": "Build (Release)",
       "type": "shell",
-      "command": "../HOI4-Mod-Helper.cmd --debug false"
+      "command": "../HOI4-Mod-Helper.cmd --dev false"
     },
     {
       "label": "Build (Debug)",

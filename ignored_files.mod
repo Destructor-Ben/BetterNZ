@@ -7,7 +7,6 @@
 
 # Info files
 README.md
-TODO.md
 mod_info/
 
 # Images
